@@ -6,11 +6,11 @@ permalink: /
 ## Contact
 
 [University of Ljubljana](https://www.uni-lj.si/university/)<br/>
-[Faculty for Computer and Information Science](https://www.fri.uni-lj.si/en) <br/>
-[Personal website](https://fri.uni-lj.si/en/about-faculty/employees/aljaz-zalar-0) <br/>
-Večna pot 113, 1000 Ljubljana, Slovenia
+[Faculty of Elektrical Engineering](https://www.fe.uni-lj.si/en) <br/>
+[Institute of Mathematics, Physics and Mechanics](http://www.imfm.si/) <br/>
+Tržaška cesta 25, 1000 Ljubljana, Slovenia
 
-**e-mail:** aljaz.zalar@fri.uni-lj.si
+**e-mail:** matej.filip@fe.uni-lj.si
 
 ## Research interests
 
