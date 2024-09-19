@@ -45,12 +45,12 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 * Deformation of gorenstein toric varieties and Laurent polynomials
 
 
-## Talks
+## Talks at the conferences
 
-* [Mutations and smoothing of affine toric Gorenstein varieties],
-  	Autumn School and Workshop: Singularities and torus actions, Oldenburg, Germany, Sep 11-Sep 15, 2023.
-* [A gap between positive even quartics and sums of squares ones](https://zalara.github.io/Predavanja/MoPAT_24.pdf),
-  	MoPAT-24 – Moments and Polynomials: Applications and Theory, University of Konstanz, Germany, March 2024.
+* Mutations and smoothing of affine toric Gorenstein varieties,
+  	Autumn School and Workshop: Singularities and torus actions, University of Oldenburg, Germany, Sep 11-Sep 15, 2023.
+* [Mutations and smoothing of affine toric Gorenstein varieties](https://uol.de/mathematik/aktuelles/singularities-and-torus-actions),
+  	Autumn School and Workshop: Singularities and torus actions, University of Oldenburg, Germany, Sep 11-Sep 15, 2023.
 * [A gap between positive polynomials and sums of squares in various settings](https://zalara.github.io/Predavanja/OS_RAG_Konstanz_2024.pdf), 										OS Reelle Geometrie und Algebra, University of Konstanz, Germany, February 2024.
 * [The truncated moment problem on some plane curves](https://zalara.github.io/Predavanja/IWOTA_23_TMP.pdf), 
 	IWOTA 2023, Helsinki, Finland, August 2023.
@@ -82,19 +82,15 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 * [Matrix Fejér-Riesz theorem with gaps](https://zalara.github.io/Predavanja/IWOTA_2015_MFRG.pdf), 									IWOTA 2015, Tbilisi, Georgia, July 2015.
 * [Matrix Fejér-Riesz theorem with gaps](https://zalara.github.io/Predavanja/Konstanz_2015_MFRG.pdf), 									Oberseminar Reelle Geometrie und Algebra, University of Konstanz, Germany, May 2015.
 
+## Other attended conferences
+
+
 ## Teaching
 
 * Numerical Methods: 2019/20-24/25, [Lecture notes (in Slovene)](https://zalara.github.io/Izrocki/Numericne_metode_izrocki_predavanj.pdf)
 * Principles of Uncertainty (1/2): 2022/23-24/25
 * Mathematics 2 - MCMC methods (1/4): 2022/23-24/25
 
-### Previous teaching
-
-* Linear Algebra: 2023/24
-* Numerical Mathematics: 2021/22-23/24, [Lecture notes (in Slovene)](https://zalara.github.io/Izrocki/Numericna_matematika_izrocki_predavanj.pdf)
-* Mathematical Modelling: 2019/20-23/24, [Solved exercises from past exams](https://zalara.github.io/Zbirke/mm_book.pdf)
-* Discrete Structures: 2019/20-21/22, [Solved exercises from past exams (in Slovene)](https://zalara.github.io/ds_zbirka.pdf)
-* Calculus: 2019/20-20/21, [Solved exercises from past exams (in Slovene)](https://zalara.github.io/oma_zbirka.pdf), [Recordings 2020/21](https://www.youtube.com/playlist?list=PLdlHgSiZMRc-STTQDyac4JQDxrlMlH5cw)
 
 ## Student supervision
 
