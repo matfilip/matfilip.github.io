@@ -14,21 +14,20 @@ Tržaška cesta 25, 1000 Ljubljana, Slovenia
 
 ## Research interests
 
-Algebraic geometry, deformation theory, convex geometry.
+Algebraic geometry, deformation theory, convex geometry, toric varieties.
 
 ## Preprints
 
 <ol>
-<li value="10"> : <a href="https://arxiv.org/pdf/2006.12960">Deformations of a toric Gorenstein pair</a></li>
+<li value="10"> <a href="https://arxiv.org/pdf/2006.12960">Deformations of a toric Gorenstein pair</a></li>
 </ol>
 
 ## Publications
 
 <ol>
-<li value="">  with <a href="https://users.fmf.uni-lj.si/klep/index.html">I. Klep</a>, T. Štrekelj: <a href="https://epubs.siam.org/doi/epdf/10.1137/23M1583491">A random copositive matrix is completely positive with positive probability</a>, SIAM Journal on Applied Algebra and Geometry 8, 3 (2024) 583-611.</li>
-<li value="14">  with <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1048067">S. Yoo</a>: <a href="https://link.springer.com/article/10.1007/s11785-024-01554-w?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240608&utm_content=10.1007/s11785-024-01554-w">The truncated moment problem on reducible cubic curves I: 
-Parabolic and Circular type relations</a>, Complex Anal. Oper. Theory. 18, 111 (2024) 54 pp.</li>
-<li value="13"> <a href="https://www.tandfonline.com/doi/full/10.1080/03081087.2023.2212316">The truncated moment problem on curves y=q(x) and yx^ℓ=1</a>, Linear and Multilinear Algebra 72, 12 (2024) 1922-1966.</li>
+<li value=""> with K. Altmann, A. Constatinescu: <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12678">Polyhedra, lattice structures, and semigroups</a>, Journal of the London Mathematical Society vol. 106 (2022) 3938-4008.</li>
+<li value="14">  with K. Altmann, A. Constatinescu: <a href="https://www.sciencedirect.com/science/article/pii/S002186932200285X">Versality in toric geometry </a>, Journal of algebra 609 (2022) 1-43</li>
+<li value="13"> with S. Felten, H. Ruddat: <a href="https://doi.org/10.1017/fmp.2021.8">Smoothing toroidal crossing spaces</a>, Linear and Multilinear Algebra 72, 12 (2024) 1922-1966.</li>
 <li value="12"> <a href="https://www.sciencedirect.com/science/article/pii/S0022247X22005777?via%3Dihub">The strong truncated Hamburger moment problem with and without gaps</a>, J. Math. Anal. Appl. 516 (2022) 21 pp.</li>
 <li value="11"> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0024379522001951">The truncated moment problem on the union of parallel lines</a>, Linear Algebra and its Applications 649 (2022) 186--239.</li>
 <li value="10"> <a href="https://link.springer.com/article/10.1007/s00020-021-02628-6">The truncated Hamburger moment problems with gaps in the index set</a>, 
