@@ -25,30 +25,19 @@ Algebraic geometry, deformation theory, convex geometry, toric varieties.
 ## Publications
 
 <ol>
-<li value=""> with K. Altmann, A. Constatinescu: <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12678">Polyhedra, lattice structures, and semigroups</a>, Journal of the London Mathematical Society vol. 106 (2022) 3938-4008.</li>
-<li value="14">  with K. Altmann, A. Constatinescu: <a href="https://www.sciencedirect.com/science/article/pii/S002186932200285X">Versality in toric geometry </a>, Journal of algebra 609 (2022) 1-43</li>
-<li value="13"> with S. Felten, H. Ruddat: <a href="https://doi.org/10.1017/fmp.2021.8">Smoothing toroidal crossing spaces</a>, Linear and Multilinear Algebra 72, 12 (2024) 1922-1966.</li>
-<li value="12"> <a href="https://www.sciencedirect.com/science/article/pii/S0022247X22005777?via%3Dihub">The strong truncated Hamburger moment problem with and without gaps</a>, J. Math. Anal. Appl. 516 (2022) 21 pp.</li>
-<li value="11"> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0024379522001951">The truncated moment problem on the union of parallel lines</a>, Linear Algebra and its Applications 649 (2022) 186--239.</li>
-<li value="10"> <a href="https://link.springer.com/article/10.1007/s00020-021-02628-6">The truncated Hamburger moment problems with gaps in the index set</a>, 
-	Integ. Equ. Oper. Theory 93 (2021) 36 pp.</li>
-<li value="9"> with <a href="https://www.researchgate.net/profile/Abhishek-Bhardwaj-25">A. Bhardwaj</a>: <a href="https://www.sciencedirect.com/science/article/pii/S0022247X21000159">The tracial moment problem on quadratic varieties</a>,
+<li value="9"> with K. Altmann, A. Constatinescu: <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12678">Polyhedra, lattice structures, and semigroups</a>, Journal of the London Mathematical Society 106 (2022) 3938-4008.</li>
+<li value="8">  with K. Altmann, A. Constatinescu: <a href="https://www.sciencedirect.com/science/article/pii/S002186932200285X">Versality in toric geometry </a>, Journal of algebra 609 (2022) 1-43.</li>
+<li value="7"> with S. Felten, H. Ruddat: <a href="https://doi.org/10.1017/fmp.2021.8">Smoothing toroidal crossing spaces</a>, Forum of Mathematics, Pi 9 (2021) 1-36.</li>
+<li value="6"> <a href="https://doi.org/10.1080/00927872.2020.1828906">The Gerstehaber product of affine toric varieties</a>, Communications in algebra 49 (2021) 1146-1162.</li>
+<li value="5"> <a href="https://doi.org/10.1080/00927872.2019.1710520">A differential graded Lie algebra controlling the Poisson deformations of an affine Poisson variety</a>, Communications in algebra 48 (2020) 2183-2195.</li>
+<li value="4"> <a href="https://doi.org/10.1016/j.jalgebra.2018.03.016">Hochschild cohomology and deformation quantization of affine toric varieties</a>, 
+	Journal of algebra (2018) 506 188-214.</li>
+<li value="3"> with <a href="https://www.researchgate.net/profile/Abhishek-Bhardwaj-25">A. Bhardwaj</a>: <a href="https://www.sciencedirect.com/science/article/pii/S0022247X21000159">The tracial moment problem on quadratic varieties</a>,
 	J. Math. Anal. Appl. 498 (2021) 39 pp.</li>
-<li value="8"> with <a href="https://www.fmf.uni-lj.si/en/directory/29/cimpric-jakob/">J. Cimprič</a>: <a href="https://www.sciencedirect.com/science/article/pii/S0024379520301324?via%3Dihub">A local-global principle for linear dependence in enveloping algebras of Lie algebras</a>,  
+<li value="2"> with <a href="https://www.fmf.uni-lj.si/en/directory/29/cimpric-jakob/">J. Cimprič</a>: <a href="https://www.sciencedirect.com/science/article/pii/S0024379520301324?via%3Dihub">A local-global principle for linear dependence in enveloping algebras of Lie algebras</a>,  
 	Linear Algebra and its Applications 596 (2020) 230-255.</li>
-<li value="7"> with <a href="https://users.fmf.uni-lj.si/klep/index.html">I. Klep</a>, <a href="https://people.clas.ufl.edu/sam/">S. McCullough</a>, <a href="https://www.fmf.uni-lj.si/en/directory/231/sivic-klemen/">K. Šivic</a>: <a href="https://academic.oup.com/imrn/advance-article-abstract/doi/10.1093/imrn/rnx203/4210362">There are many more positive maps than completely positive maps</a>, 
+<li value="1"> with <a href="https://users.fmf.uni-lj.si/klep/index.html">I. Klep</a>, <a href="https://people.clas.ufl.edu/sam/">S. McCullough</a>, <a href="https://www.fmf.uni-lj.si/en/directory/231/sivic-klemen/">K. Šivic</a>: <a href="https://academic.oup.com/imrn/advance-article-abstract/doi/10.1093/imrn/rnx203/4210362">There are many more positive maps than completely positive maps</a>, 
 	Int. Math. Res. Not. 11 (2019) 3313-3375.</li>
-<li value="6"> with <a href="https://www.researchgate.net/profile/Abhishek-Bhardwaj-25">A. Bhardwaj</a>: <a href="https://link.springer.com/article/10.1007%2Fs11785-017-0756-3">The singular bivariate quartic tracial moment problem</a>, 
-	Complex Anal. Oper. Theory 12 (2018) 1057-1142.</li>
-<li value="5"> <a href="https://www.sciencedirect.com/science/article/pii/S0022247X16303675">Operator Positivstellensätze for noncommutative polynomials positive on matrix convex sets</a>, 
-	J. Math. Anal. Appl. 445 (2017) 32-80.</li>
-<li value="4"> <a href="https://www.sciencedirect.com/science/article/pii/S0022404915003345">Matrix Fejér-Riesz theorem with gaps</a>, 
-	J. Pure Appl. Algebra 220 (2016) 2533-2548.</li>
-<li value="3"> <a href="https://link.springer.com/article/10.1007/s00020-014-2148-7">Non-negative spectral measures and representations of C*-algebras</a>,  
-	Integ. Equ. Oper. Theory 79 (2014) 219-242.</li>
-<li value="2"> with <a href="https://www.fmf.uni-lj.si/en/directory/29/cimpric-jakob/">J. Cimprič</a>: <a href="https://www.sciencedirect.com/science/article/pii/S0022247X12010025">Moment problems for operator polynomials</a>, J. Math. Anal. Appl. 401 (2013) 307-316.</li>
-<li value="1"> <a href="https://www.tandfonline.com/doi/abs/10.1080/00927872.2011.590565?journalCode=lagb20">A note on a matrix version of the Farkas lemma</a>,
-	Comm. Algebra 40 (2012) 3420-3429.</li>
 </ol>
 
 ## In preparation
