@@ -70,8 +70,10 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 
 ## Academic education
 
-* 2013 - 2017: PhD in Mathematics, University of Ljubljana. Thesis: [Contributions to a noncommutative real algebraic geometry](http://www.matknjiz.si/doktorati/2017/Zalar-14521-29.pdf). Supervisors: Prof. [Jaka Cimprič](https://www.fmf.uni-lj.si/en/directory/29/cimpric-jakob/) and Prof. [Igor Klep](https://users.fmf.uni-lj.si/klep/index.html).
+* 2018 - 2019: Postdoc in Mathematics, JGU Mainz. Supervisor: Prof. Helge Ruddat.
 
-* 2011 - 2013: MSc in Mathematics, University of Ljubljana. Thesis: [Moment problems for matrix and operator polynomials (in Slovene)](https://repozitorij.uni-lj.si/Dokument.php?id=106186&lang=slv). Supervisor: Prof. [Jaka Cimprič](https://www.fmf.uni-lj.si/en/directory/29/cimpric-jakob/)
+* 2014 - 2018: PhD in Mathematics, FU Berlin. Thesis: [Noncommutative deformations of toric varieties](https://refubium.fu-berlin.de/bitstream/handle/fub188/23203/Thesis_Filip.pdf?sequence=3&isAllowed=y). Supervisor: Prof. Klaus Altmann
+* 2011-2013: MSc in Mathematics, University of Ljubljana. Thesis: [Rank 2 ACM bundles on complete intersection Calabi-Yau varieties](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=97237)
+
 
 * 2008 - 2011: BSc in Mathematics, University of Ljubljana. Thesis: [Matrix generalizations of Farkas lemma (in Slovene)](https://repozitorij.uni-lj.si/Dokument.php?id=105978&lang=slv). Supervisor: Prof. [Jaka Cimprič](https://www.fmf.uni-lj.si/en/directory/29/cimpric-jakob/)
