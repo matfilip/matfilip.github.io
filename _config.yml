@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
-title: "Aljaž Zalar"
-url: https://zalara.github.io/
+title: "Matej Filip"
+url: https://matfilip.github.io/
 permalink: /:title/
 gems:
     - jekyll-avatar
