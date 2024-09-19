@@ -92,7 +92,7 @@ Cetraro, Italy, Jul 10-16, 2022
 * Mirror Symmetry and Fano Varieties II,
 Chicheley Hall, UK, Sep 25-27, 2019
 * Introductionary workshop: Derived algebraic geometry and birational geometry and moduli spaces,
-MSRI, Berkeley, California, USA, Jan 31-Feb 8, 2019
+MSRI, Berkeley, California, Jan 31-Feb 8, 2019
 * Young perspectives in Deformation theory,
 University of Torino, Italy, November 27-30, 2018
 * Instruments of Algebraic Geometry,
