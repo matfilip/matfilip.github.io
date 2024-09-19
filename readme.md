@@ -47,67 +47,26 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 
 ## Talks at the conferences
 
-* Mutations and smoothing of affine toric Gorenstein varieties,
-  	Autumn School and Workshop: Singularities and torus actions, University of Oldenburg, Germany, Sep 11-Sep 15, 2023.
+* [Smoothing toric Gorenstein singularities using Laurent polynomials](https://sites.google.com/view/singularities-imsa-2024),
+  	Singularities from a homological perspective: IMSA Miami, USA, Nov 11-Nov 23, 2024.
 * [Mutations and smoothing of affine toric Gorenstein varieties](https://uol.de/mathematik/aktuelles/singularities-and-torus-actions),
   	Autumn School and Workshop: Singularities and torus actions, University of Oldenburg, Germany, Sep 11-Sep 15, 2023.
-* [A gap between positive polynomials and sums of squares in various settings](https://zalara.github.io/Predavanja/OS_RAG_Konstanz_2024.pdf), 										OS Reelle Geometrie und Algebra, University of Konstanz, Germany, February 2024.
-* [The truncated moment problem on some plane curves](https://zalara.github.io/Predavanja/IWOTA_23_TMP.pdf), 
-	IWOTA 2023, Helsinki, Finland, August 2023.
-* [The truncated moment problem on some polynomial and rational plane curves](https://zalara.github.io/Predavanja/SIAM_AG_23_TMP.pdf), 
-	SIAM - AG23, Eindhoven, Netherlands, July 2023.
-* [A gap between positive maps (resp. copositive matrices) and completely positive ones](https://zalara.github.io/Predavanja/Zagreb_2023.pdf), 
-	Seminar Alpe-Jadran, Zagreb, Croatia, May 2023.
-* [The truncated moment problem on quadratic, cubic and some higher degree curves](https://zalara.github.io/Predavanja/IWOTA_2022_TMP.pdf), 
-	IWOTA 2022, Kraków, Poland, September 2022.
-* [Solving bivariate truncated moment problems by reduction to the univariate setting](https://zalara.github.io/Predavanja/OB_2022_TMP.pdf),
-	Operator Theory and Beyond 2022, Jagiellonian University, Kraków, Poland, July 2022.
-* [The bivariate truncated moment problem on quadratic and some higher degree curves](https://zalara.github.io/Predavanja/IWOTA_2020_TTMP.pdf), 
-	IWOTA 2020, Lancaster, UK, August 2021, online.
-* [The tracial moment problem on quadratic varieties](https://zalara.github.io/Predavanja/ECM_2020_BQTMP.pdf), 
-	ECM 2020, Portorož, Slovenia, June 2021, online.
-* [The singular bivariate quartic tracial moment problem](https://zalara.github.io/Predavanja/IWOTA_2019_BQTMP.pdf), 
-	IWOTA 2019, Lisbon, Portugal, July 2019.
-* There are many more positive maps than completely positive maps, 
-	Sums of Squares - Real Algebraic Geometry and its Applications, Innsbruck, Austria, August 2017.
-* [There are many more positive maps than completely positive maps](https://zalara.github.io/Predavanja/LAW_2017_PosvsCP.pdf), 
-	LAW 2017, Ljubljana, Slovenia, June 2017.
-* [Operator Positivstellensätze for noncommutative polynomials positive on matrix convex sets](https://zalara.github.io/Predavanja/IWOTA_2016_PosNCmatconv.pdf), 
-	IWOTA 2016, St Louis, Missouri, USA, July 2016.
-* [Univariate matrix polynomials positive semidefinite on semialgebraic sets](https://zalara.github.io/Predavanja/Georgia_2016_UnivMatPos.pdf), 
-	Summer School on Real Algebraic Geometry and Optimization, Georgia Tech, Atlanta, USA, July 2016.
-* [Operator Positivstellensätze for noncommutative polynomials positive on matrix convex sets](https://zalara.github.io/Predavanja/Auckland_2016_PosNCmatconv.pdf), 
-	The University of Auckland, New Zealand, March 2016.
-* [Matrix Fejér-Riesz theorem with gaps](https://zalara.github.io/Predavanja/Auckland_2015_MFRG.pdf), 									Algebra and Geometry seminar, The University of Auckland, New Zealand, October 2015.
-* [Matrix Fejér-Riesz theorem with gaps](https://zalara.github.io/Predavanja/IWOTA_2015_MFRG.pdf), 									IWOTA 2015, Tbilisi, Georgia, July 2015.
-* [Matrix Fejér-Riesz theorem with gaps](https://zalara.github.io/Predavanja/Konstanz_2015_MFRG.pdf), 									Oberseminar Reelle Geometrie und Algebra, University of Konstanz, Germany, May 2015.
+
 
 ## Other attended conferences
 
 
 ## Teaching
 
-* Numerical Methods: 2019/20-24/25, [Lecture notes (in Slovene)](https://zalara.github.io/Izrocki/Numericne_metode_izrocki_predavanj.pdf)
-* Principles of Uncertainty (1/2): 2022/23-24/25
-* Mathematics 2 - MCMC methods (1/4): 2022/23-24/25
+* Mathematics 1,2,3: FE Ljubljana 
+* Algebraic Curves: FMF Ljubljana
+* Introduction to Algebraic geometry: FMF Ljubljana
 
 
 ## Student supervision
 
-* Tomaž Jonatan Leonardis: [Algorithms for finding Nash equilibrium in bimatrix games](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=161586&lang=slv), BSc (2024)
-* Matej Belšak: [Extreme volumes of quasi-copulas](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=161583&lang=slv), BSc (2024)
-* Biljana Vitanova: [Principal Component Analysis of Multidimensional data](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=161315&lang=slv), BSc (2024)
-* Ana Poklukar: [Matrix Completion Problem Through Optimization on Riemannian Manifolds](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=161316&lang=slv), BSc (2024)
-* Žan Terplan: [Use of Lasserre hierarchies in computer graphics](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=160945&lang=slv), BSc (2024)
-* Tadej Jeršin: [Distance matrix completions](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=161128&lang=slv), BSc (2024)
-* Anamari Orehar: [Statistical analysis of efficiency of solving bimatrix games using LemkeHowson algorithm](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=152703&lang=slv), BSc (2023)
-* Matej Klančar: [Algorithms for solving the matrix completion problem](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=152710&lang=slv), BSc (2023)
-* Gregor Kovač: [Ray tracing in non-euclidean spaces](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=148394&lang=slv), BSc (2023)
-* Veljko Dudić: [Usage of Lasserre hierarchies in game theory](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=143507&lang=slv), BSc (2022)
-* Filip Marušič: [Truncated Moment Problems and positive semidefinite matrix completions](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=140542&lang=slv), BSc (2022)
-* Matjaž Ciglič: [Inertia of matrix completions](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=138420&lang=slv), BSc (2022)
-* Mirjam Skobe: [Sample rate conversion of a digital signal](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=134231&lang=slv), MSc (2021)
-* Nace Gorenc: [Determining a type of a measure in a nonsingular bivariate quartic tracial moment problem](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=120060&lang=slv), BSc (2020)
+* Jure Markun: [Deformation theory of toric varieties](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=149757), MSc (2023)
+* Andras Sandor, Postdoc
 
 ## Academic education
 
