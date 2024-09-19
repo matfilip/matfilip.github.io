@@ -101,6 +101,8 @@ University of Bucharest, Romania, Sep 11-22, 2017
 Fields Institute, Toronto, Oct 3-7, 2016
 * Summer School on Poisson Geometry,
 University of Geneva, June 27-July 2, 2016
+* Algebra and Geometry meeting IMUB,
+University of Barcelona, Spain, Dec 2-4, 2015
 * Workshop Noncommutative Geometry and Higher Structures,
 University La Sapienza, Rome, Aug 31-Sep 4, 2015
 * AMS Summer Institute in Algebraic Geometry,
