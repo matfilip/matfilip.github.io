@@ -127,7 +127,7 @@ Warwick University, March 16-20, 2015
 
 ## Academic education
 
-* 2018 - 2019: Postdoc in Mathematics, JGU Mainz. Supervisor: Prof. Helge Ruddat.
+* 2018 - 2019: Postdoc in Mathematics, JGU Mainz. Supervisor: Prof. Dr. Helge Ruddat.
 
 * 2014 - 2018: PhD in Mathematics, FU Berlin. Thesis: [Noncommutative deformations of toric varieties](https://refubium.fu-berlin.de/bitstream/handle/fub188/23203/Thesis_Filip.pdf?sequence=3&isAllowed=y). Supervisor: Prof. Dr. Klaus Altmann
 * 2011-2013: MSc in Mathematics, University of Ljubljana. Thesis: [Rank 2 ACM bundles on complete intersection Calabi-Yau varieties (in Slovene)](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=97237). Supervisors: Prof.~Dr.~Anita Buckley, Prof. Dr. Tomaž Košir 
