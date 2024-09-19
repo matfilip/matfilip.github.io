@@ -27,26 +27,23 @@ Algebraic geometry, deformation theory, convex geometry, toric varieties.
 <ol>
 <li value="9"> with K. Altmann, A. Constatinescu: <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12678">Polyhedra, lattice structures, and semigroups</a>, Journal of the London Mathematical Society 106 (2022) 3938-4008.</li>
 <li value="8">  with K. Altmann, A. Constatinescu: <a href="https://www.sciencedirect.com/science/article/pii/S002186932200285X">Versality in toric geometry </a>, Journal of algebra 609 (2022) 1-43.</li>
-<li value="7"> with S. Felten, H. Ruddat: <a href="https://doi.org/10.1017/fmp.2021.8">Smoothing toroidal crossing spaces</a>, Forum of Mathematics, Pi 9 (2021) 1-36.</li>
-<li value="6"> <a href="https://doi.org/10.1080/00927872.2020.1828906">The Gerstehaber product of affine toric varieties</a>, Communications in algebra 49 (2021) 1146-1162.</li>
-<li value="5"> <a href="https://doi.org/10.1080/00927872.2019.1710520">A differential graded Lie algebra controlling the Poisson deformations of an affine Poisson variety</a>, Communications in algebra 48 (2020) 2183-2195.</li>
-<li value="4"> <a href="https://doi.org/10.1016/j.jalgebra.2018.03.016">Hochschild cohomology and deformation quantization of affine toric varieties</a>, 
+<li value="7">  with A. Petracci, A. Corti: <a href="https://doi.org/10.1017/9781108877831.005">Mirror Symmetry and smoothing Gorenstein toric affine 3-folds </a>, Facets of Algebraic Geometry
+volume in honour of William Fulton on the occasion of his 80th birthday (2022) 132-163.</li>
+<li value="6"> with S. Felten, H. Ruddat: <a href="https://doi.org/10.1017/fmp.2021.8">Smoothing toroidal crossing spaces</a>, Forum of Mathematics, Pi 9 (2021) 1-36.</li>
+<li value="5"> <a href="https://doi.org/10.1080/00927872.2020.1828906">The Gerstehaber product of affine toric varieties</a>, Communications in algebra 49 (2021) 1146-1162.</li>
+<li value="4"> <a href="https://doi.org/10.1080/00927872.2019.1710520">A differential graded Lie algebra controlling the Poisson deformations of an affine Poisson variety</a>, Communications in algebra 48 (2020) 2183-2195.</li>
+<li value="3"> <a href="https://doi.org/10.1016/j.jalgebra.2018.03.016">Hochschild cohomology and deformation quantization of affine toric varieties</a>, 
 	Journal of algebra (2018) 506 188-214.</li>
-<li value="3"> with <a href="https://www.researchgate.net/profile/Abhishek-Bhardwaj-25">A. Bhardwaj</a>: <a href="https://www.sciencedirect.com/science/article/pii/S0022247X21000159">The tracial moment problem on quadratic varieties</a>,
-	J. Math. Anal. Appl. 498 (2021) 39 pp.</li>
-<li value="2"> with <a href="https://www.fmf.uni-lj.si/en/directory/29/cimpric-jakob/">J. Cimprič</a>: <a href="https://www.sciencedirect.com/science/article/pii/S0024379520301324?via%3Dihub">A local-global principle for linear dependence in enveloping algebras of Lie algebras</a>,  
-	Linear Algebra and its Applications 596 (2020) 230-255.</li>
-<li value="1"> with <a href="https://users.fmf.uni-lj.si/klep/index.html">I. Klep</a>, <a href="https://people.clas.ufl.edu/sam/">S. McCullough</a>, <a href="https://www.fmf.uni-lj.si/en/directory/231/sivic-klemen/">K. Šivic</a>: <a href="https://academic.oup.com/imrn/advance-article-abstract/doi/10.1093/imrn/rnx203/4210362">There are many more positive maps than completely positive maps</a>, 
-	Int. Math. Res. Not. 11 (2019) 3313-3375.</li>
+<li value="2"> with G. Casnati, F. Malaspina: <a href="https://doi.org/10.1007/s13163-016-0213-2">Rank two aCM bundles on the del Pezzo threefold of degree 7</a>,
+	Revista matematica complutense 30 (2017) 129-165</li>
+<li value="1"> <a href="https://doi.org/10.1007/s10711-013-9945-z">Rank 2 ACM bundles on complete intersection Calabi-Yau threefolds</a>,  
+	Geometriae dedicata 173 (2014) 331-346.</li>
 </ol>
 
 ## In preparation
 
-* with [M. Kummer](https://tu-dresden.de/mn/math/geometrie/kummer): Positive polynomials and the truncated moment problem on plane cubics.
-* with [A. Bhardwaj](https://www.researchgate.net/profile/Abhishek-Bhardwaj-25): Flat extensions for cubic curves in Weierstrass form.
-* with [R. Nailwal](https://www.researchgate.net/profile/Rajkamal_Nailwal): Univariate truncated rational moment problem.
-* with [S. Yoo](https://mathscinet.ams.org/mathscinet/author?authorId=1048067): The truncated moment problem on reducible cubic curves II: Hyperbolic type relations.
-* with <a href="https://users.fmf.uni-lj.si/klep/index.html">I. Klep</a>, T. Štrekelj: Construction of exceptional copositive matrices
+* Deformation of gorenstein toric varieties and Laurent polynomials
+
 
 ## Talks
 
