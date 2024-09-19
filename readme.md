@@ -55,20 +55,35 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
   Conference: Toric degeneration and mirror symmetry in Kumamoto, University of Kumamoto, Japan, Oct 13-Oct 14, 2022
 * [Laurent polynomials and deformations of affine toric varities](https://www.mfo.de/occasion/2213/www_view),
   Conference: Toric geometry, Oberwolfach, Germany, Mar 27-Apr 2, 2022
+ * [The miniversal deformation of an affine toric Gorenstein threefold](https://kasprzyk.work/seminars/ag.html),
+  Seminar at University of Nottingham (online talk), Jan 28, 2021 
 * [Smoothing toroidal crossing spaces](https://sites.google.com/view/1912kobe),
-  Conference: Degenerations, algebraic surfaces, and related topics, University of Kobe, Japan, Dec 16-Dec 18, 2019
- 
+  Conference: Degenerations, algebraic surfaces, and related topics, University of Kobe, Japan, Dec 16-Dec 18, 2019 
  * [Deformations of non-isolated toric singularities](https://www.imperial.ac.uk/events/96313/matej-filip-deformations-of-non-isolated-toric-singularities/),
-  Seminar at Imperial College London, Oct 10, 2019
+  Seminar at Imperial College London, UK, Oct 10, 2019
+* [The versal deformation for toric varieties in special lattice degrees](https://www.mi.fu-berlin.de/math/groups/ag-algebra/seminaralgeom/index.html),
+  Seminar at FU Berlin, Germany, May 23, 2019
+* [Deformations of Gorenstein toric varieties](https://www.sfu.ca/~nilten/teaching/ntag_archive.html),
+  Seminar at SFU Vancouver, Canada, Feb 8, 2019
 * [Frobenious manifolds and formality of Lie algebras of polyvector fields](https://www.agtz.mathematik.uni-mainz.de/tag/spring-school/),
   Spring School: Enumerative Invariants from Diferential Graded Lie Algebras and
 Categories, Tuscany, Italy, Mar 25-Mar 31, 2018
 * [Hochschild cohomology and deformation quantization of toric varieties](https://www.deformationschool.unito.it/),
   School on Deformation Theory, University of Turin, Italy, Jul 5-Jul 8, 2017
+* [Rank 2 ACM bundles on complete intersection Calabi-Yau threefolds](http://wwwvb0.wix.com/wwwvb2015),
+  Conference: ACM bundles on algebraic varieites, Ankara, Jun 16, 2015  
+* [Rank 2 ACM bundles on complete intersection Calabi-Yau threefolds](https://www.dm-seminarialggeo.unito.it/eventi?view=venueevents&id=2%3ApolitecnicoTorino&order=field_sede&sort=desc&page=8),
+  Seminar at Politecnico di Torino, Italy, May 14, 2014
+* [Rank 2 ACM bundles on complete intersection Calabi-Yau threefolds](https://users.fmf.uni-lj.si/kosir/tulsfVIII.htm),
+  Seminar TULSF at University of Ljubljana, Slovenia, Sep 19, 2013 
   
 
 
-## Attended conferences
+
+
+
+
+## Other Attended conferences
 
 
 ## Teaching
