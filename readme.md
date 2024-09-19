@@ -85,6 +85,33 @@ Categories, Tuscany, Italy, Mar 25-Mar 31, 2018
 
 ## Other Attended conferences
 
+*Toric Degenerations, BIRS workshop,
+Banff, Canada, Dec 4-Dec 9, 2022
+*Group Actions in Algebraic Geometry,
+Cetraro, Italy, Jul 10-16, 2022
+*Mirror Symmetry and Fano Varieties II,
+Chicheley Hall, UK, Sep 25-27, 2019
+*Introductionary workshop: Derived algebraic geometry and birational geometry and moduli spaces,
+MSRI, Berkeley, California, USA, Jan 31-Feb 8, 2019
+*Young perspectives in Deformation theory,
+University of Torino, Italy, November 27-30, 2018
+*Instruments of Algebraic Geometry,
+University of Bucharest, Romania, Sep 11-22, 2017
+*Workshop on Convexity in Algebraic Geometry,
+Fields Institute, Toronto, Oct 3-7, 2016
+*Summer School on Poisson Geometry,
+University of Geneva, June 27-July 2, 2016
+*Workshop Noncommutative Geometry and Higher Structures,
+University La Sapienza, Rome, Aug 31-Sep 4, 2015
+*AMS Summer Institute in Algebraic Geometry,
+University of Utah, Salt Lake City, July 12-24, 2015
+*Deformation Theory, Homological Mirror Symmetry and Noncommuta-
+tive Geometry,
+University of Copenhagen, May 18-22, 2015
+*Warwick EPSRC Symposium School on Derived Categories, Weyl Alge-
+bras and Hodge Theory,
+Warwick University, March 16-20, 2015
+
 
 ## Teaching
 
