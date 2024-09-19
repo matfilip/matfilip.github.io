@@ -73,7 +73,5 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 * 2018 - 2019: Postdoc in Mathematics, JGU Mainz. Supervisor: Prof. Helge Ruddat.
 
 * 2014 - 2018: PhD in Mathematics, FU Berlin. Thesis: [Noncommutative deformations of toric varieties](https://refubium.fu-berlin.de/bitstream/handle/fub188/23203/Thesis_Filip.pdf?sequence=3&isAllowed=y). Supervisor: Prof. Klaus Altmann
-* 2011-2013: MSc in Mathematics, University of Ljubljana. Thesis: [Rank 2 ACM bundles on complete intersection Calabi-Yau varieties](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=97237)
-
-
-* 2008 - 2011: BSc in Mathematics, University of Ljubljana. Thesis: [Matrix generalizations of Farkas lemma (in Slovene)](https://repozitorij.uni-lj.si/Dokument.php?id=105978&lang=slv). Supervisor: Prof. [Jaka Cimprič](https://www.fmf.uni-lj.si/en/directory/29/cimpric-jakob/)
+* 2011-2013: MSc in Mathematics, University of Ljubljana. Thesis: [Rank 2 ACM bundles on complete intersection Calabi-Yau varieties (in Slovene)](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=97237). Supervisors: Prof. Anita Buckley, Prof. Tomaž Košir 
+* 2008 - 2011: BSc in Mathematics, University of Ljubljana. Thesis: [27 lines on a smooth cubic surface (in Slovene)](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=95825). Supervisor: Prof. Tomaž Košir
