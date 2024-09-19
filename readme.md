@@ -45,15 +45,30 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 * Deformation of gorenstein toric varieties and Laurent polynomials
 
 
-## Talks at the conferences
+## Selected research talks
 
 * [Smoothing toric Gorenstein singularities using Laurent polynomials](https://sites.google.com/view/singularities-imsa-2024),
-  	Singularities from a homological perspective: IMSA Miami, USA, Nov 11-Nov 23, 2024.
+  	Conference: Singularities from a homological perspective: IMSA Miami, USA, Nov 11-Nov 23, 2024.
 * [Mutations and smoothing of affine toric Gorenstein varieties](https://uol.de/mathematik/aktuelles/singularities-and-torus-actions),
   	Autumn School and Workshop: Singularities and torus actions, University of Oldenburg, Germany, Sep 11-Sep 15, 2023.
+* [Mutations of Laurent polynomials and deformations of toric varieties](https://nfujita-math.github.io/tdms2022/index.html),
+  Conference: Toric degeneration and mirror symmetry in Kumamoto, University of Kumamoto, Japan, Oct 13-Oct 14, 2022
+* [Laurent polynomials and deformations of affine toric varities](https://www.mfo.de/occasion/2213/www_view),
+  Conference: Toric geometry, Oberwolfach, Germany, Mar 27-Apr 2, 2022
+* [Smoothing toroidal crossing spaces](https://sites.google.com/view/1912kobe),
+  Conference: Degenerations, algebraic surfaces, and related topics, University of Kobe, Japan, Dec 16-Dec 18, 2019
+ 
+ * [Deformations of non-isolated toric singularities](https://www.imperial.ac.uk/events/96313/matej-filip-deformations-of-non-isolated-toric-singularities/),
+  Seminar at Imperial College London, Oct 10, 2019
+* [Frobenious manifolds and formality of Lie algebras of polyvector fields](https://www.agtz.mathematik.uni-mainz.de/tag/spring-school/),
+  Spring School: Enumerative Invariants from Diferential Graded Lie Algebras and
+Categories, Tuscany, Italy, Mar 25-Mar 31, 2018
+* [Hochschild cohomology and deformation quantization of toric varieties](https://www.deformationschool.unito.it/),
+  School on Deformation Theory, University of Turin, Italy, Jul 5-Jul 8, 2017
+  
 
 
-## Other attended conferences
+## Attended conferences
 
 
 ## Teaching
