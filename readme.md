@@ -41,8 +41,8 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 ## Preprints
 
 <ol>
-<li value="10"> <a href="https://arxiv.org/pdf/2006.12960">Laurent polynomials and deformations of non-isolated Gorenstein toric sigularities</a></li>
-<li value="11"> <a href="https://arxiv.org/abs/2504.04486">Deformations of a toric Gorenstein pair</a></li>
+<li value="10"> <a href="https://arxiv.org/abs/2504.04486">Laurent polynomials and deformations of non-isolated Gorenstein toric sigularities</a></li>
+<li value="11"> <a href="https://arxiv.org/abs/2006.12960">Deformations of a toric Gorenstein pair</a></li>
 </ol>
 
 ## Academic education
