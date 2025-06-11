@@ -101,6 +101,8 @@ Categories, Tuscany, Italy, Mar 25-Mar 31, 2018
 
 ## Other Attended conferences
 
+* Mid-Atlantic Geometry and Singularities Conference, Universidad de La
+Laguna, Tenerife, Spain, May 12- May 16, 2025
 * Toric Degenerations, BIRS workshop,
 Banff, Canada, Dec 4-Dec 9, 2022
 * Group Actions in Algebraic Geometry,
@@ -138,7 +140,9 @@ Warwick University, March 16-20, 2015
 
 ## Student supervision
 
-* Jure Markun: [Deformation theory of toric varieties](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=149757), MSc (2023)
 * Andras Sandor, Postdoc
+* Izak Jenko, MSc
+* Jure Markun: [Deformation theory of toric varieties](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=149757), MSc (2023)
+
 
 
