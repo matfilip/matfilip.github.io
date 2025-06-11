@@ -55,8 +55,16 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 
 ## Selected research talks
 
+* Mutations and deformations,
+  	Conference: New developments in Singularity Theory: IMSA Miami, USA, Nov 10-Nov 14, 2025.
+* [Laurent polynomials and deformations of non-isolated Gorenstein toric singularities](https://www.math.ucla.edu/~jmoraga/BGS2025),
+  	Birational Geometry Seminar 2025: UCLA, USA, May 23, 2025. 
+* [Laurent polynomials and deformations of non-isolated Gorenstein toric singularities](https://indico.uis.no/event/54/contributions/),
+  	Conference: Fano varieties in Stavanger: Stavanger, Norway, Apr 2- Apr 4, 2025. 
 * [Smoothing toric Gorenstein singularities using Laurent polynomials](https://sites.google.com/view/singularities-imsa-2024),
   	Conference: Singularities from a homological perspective: IMSA Miami, USA, Nov 11-Nov 23, 2024.
+* [Smoothing Gorenstein toric singularities and mirror symmetry](https://indico.sissa.it/event/154/contributions/speakers),
+  	TULSF meeting: SISSA Trieste, Italy, Nov 7, 2024. 
 * [Mutations and smoothing of affine toric Gorenstein varieties](https://uol.de/mathematik/aktuelles/singularities-and-torus-actions),
   	Autumn School and Workshop: Singularities and torus actions, University of Oldenburg, Germany, Sep 11-Sep 15, 2023.
 * [Mutations of Laurent polynomials and deformations of toric varieties](https://nfujita-math.github.io/tdms2022/index.html),
