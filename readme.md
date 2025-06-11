@@ -14,7 +14,7 @@ Tržaška cesta 25, 1000 Ljubljana, Slovenia
 
 ## Research interests
 
-Algebraic geometry, deformation theory, convex geometry, toric varieties.
+I am working on the classification of Fano manifolds using mirror symmetry and toric deformation theory.
 
 ## Preprints
 
