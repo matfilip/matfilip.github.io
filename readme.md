@@ -21,20 +21,21 @@ I am a professor of mathematics at the University of Ljubljana. My research focu
 ## Publications
 
 <ol>
-<li value="1"> with S. Felten, H. Ruddat: <a href="https://doi.org/10.1017/fmp.2021.8">Smoothing toroidal crossing spaces</a>, Forum of Mathematics, Pi 9 (2021) 1-36.</li>
-<li value="2">  with A. Petracci, A. Corti: <a href="https://doi.org/10.1017/9781108877831.005">Mirror Symmetry and smoothing Gorenstein toric affine 3-folds </a>, Facets of Algebraic Geometry
+	<li> <a href="https://arxiv.org/abs/2006.12960">Deformations of an affine toric Gorenstein pair, </a>to appear in Journal of algebra.</li>
+<li> with S. Felten, H. Ruddat: <a href="https://doi.org/10.1017/fmp.2021.8">Smoothing toroidal crossing spaces</a>, Forum of Mathematics, Pi 9 (2021) 1-36.</li>
+<li>  with A. Petracci, A. Corti: <a href="https://doi.org/10.1017/9781108877831.005">Mirror Symmetry and smoothing Gorenstein toric affine 3-folds </a>, Facets of Algebraic Geometry
 volume in honour of William Fulton on the occasion of his 80th birthday (2022) 132-163.</li>
-	<li value="3"> with K. Altmann, A. Constatinescu: <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12678">Polyhedra, lattice structures, and semigroups</a>, Journal of the London Mathematical Society 106 (2022) 3938-4008.</li>
-<li value="4">  with K. Altmann, A. Constatinescu: <a href="https://www.sciencedirect.com/science/article/pii/S002186932200285X">Versality in toric geometry </a>, Journal of algebra 609 (2022) 1-43.</li>
+	<li> with K. Altmann, A. Constatinescu: <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12678">Polyhedra, lattice structures, and semigroups</a>, Journal of the London Mathematical Society 106 (2022) 3938-4008.</li>
+<li>  with K. Altmann, A. Constatinescu: <a href="https://www.sciencedirect.com/science/article/pii/S002186932200285X">Versality in toric geometry </a>, Journal of algebra 609 (2022) 1-43.</li>
 
 
-<li value="5"> <a href="https://doi.org/10.1080/00927872.2020.1828906">The Gerstehaber product of affine toric varieties</a>, Communications in algebra 49 (2021) 1146-1162.</li>
-<li value="6"> <a href="https://doi.org/10.1080/00927872.2019.1710520">A differential graded Lie algebra controlling the Poisson deformations of an affine Poisson variety</a>, Communications in algebra 48 (2020) 2183-2195.</li>
-<li value="7"> <a href="https://doi.org/10.1016/j.jalgebra.2018.03.016">Hochschild cohomology and deformation quantization of affine toric varieties</a>, 
+<li> <a href="https://doi.org/10.1080/00927872.2020.1828906">The Gerstehaber product of affine toric varieties</a>, Communications in algebra 49 (2021) 1146-1162.</li>
+<li> <a href="https://doi.org/10.1080/00927872.2019.1710520">A differential graded Lie algebra controlling the Poisson deformations of an affine Poisson variety</a>, Communications in algebra 48 (2020) 2183-2195.</li>
+<li> <a href="https://doi.org/10.1016/j.jalgebra.2018.03.016">Hochschild cohomology and deformation quantization of affine toric varieties</a>, 
 	Journal of algebra 506 (2018) 188-214.</li>
-<li value="8"> with G. Casnati, F. Malaspina: <a href="https://doi.org/10.1007/s13163-016-0213-2">Rank two aCM bundles on the del Pezzo threefold of degree 7</a>,
+<li> with G. Casnati, F. Malaspina: <a href="https://doi.org/10.1007/s13163-016-0213-2">Rank two aCM bundles on the del Pezzo threefold of degree 7</a>,
 	Revista matematica complutense 30 (2017) 129-165</li>
-<li value="9"> <a href="https://doi.org/10.1007/s10711-013-9945-z">Rank 2 ACM bundles on complete intersection Calabi-Yau threefolds</a>,  
+<li> <a href="https://doi.org/10.1007/s10711-013-9945-z">Rank 2 ACM bundles on complete intersection Calabi-Yau threefolds</a>,  
 	Geometriae dedicata 173 (2014) 331-346.</li>
 </ol>
 
@@ -42,7 +43,6 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 
 <ol>
 <li value="10"> <a href="https://arxiv.org/abs/2504.04486">Laurent polynomials and deformations of non-isolated Gorenstein toric sigularities</a></li>
-<li value="11"> <a href="https://arxiv.org/abs/2006.12960">Deformations of a toric Gorenstein pair</a></li>
 </ol>
 
 ## Academic education
@@ -101,6 +101,7 @@ Categories, Tuscany, Italy, Mar 25-Mar 31, 2018
 
 ## Other Attended conferences
 
+* 2025 Summer Research Institute in Algebraic Geometry, Colorado State University, USA, July 21-25, 2025
 * Mid-Atlantic Geometry and Singularities Conference, Universidad de La
 Laguna, Tenerife, Spain, May 12- May 16, 2025
 * Toric Degenerations, BIRS workshop,
