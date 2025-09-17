@@ -1,0 +1,1877 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[slovene]{babel}
+\usepackage{amsmath,amsfonts,graphicx}
+%\usepackage[none]{hyphenat}
+%\usepackage{tikz}
+%\usepackage{a4wide}
+%\textwidth 16cm \textheight 23cm \topmargin -1.2cm \oddsidemargin 4pt \evensidemargin 4pt
+%\textwidth 14.4cm \oddsidemargin 0.5cm
+\textwidth 13.5cm \oddsidemargin 1.0cm
+\pagestyle{empty}
+
+\begin{document}
+
+
+\begin{center}
+\vspace*{1cm}
+
+{\Large
+UNIVERZA V LJUBLJANI\\[4pt]
+FAKULTETA ZA ELEKTROTEHNIKO\\[4pt]
+}
+
+\vspace{3cm}
+
+
+{\Large Matej Filip}
+
+\vspace{2.5cm}
+
+{\Huge\bfseries
+REŠENE NALOGE IZ IZPITOV PRI PREDMETU\\[6pt]
+MATEMATIKA 2 UNIVERZITETNI ŠTUDIJ\\[6pt]
+}
+
+\vspace{2.5cm}
+
+{\Large Študijsko gradivo}
+
+\vfill
+
+{\large Ljubljana, 2025}
+\end{center}
+
+
+\newpage
+
+
+
+
+\newpage
+\large
+\begin{center}
+UVOD
+\end{center}
+
+Naloge na naslednjih straneh so bile na pisnih izpitih v študijskih letih 2021/22–2022/25 pri predmetu Matematika 2, ki je obvezni predmet za študente, vpisane na univerzitetni dodiplomski študijski program Elektotehnika, na Univerzi v Ljubljani.
+
+
+\newpage
+\large
+\begin{center}
+\Large IZPIT iz MATEMATIKE II\\Univerzitetni  "studij\\[2ex]
+\large 1. september 2025
+\end{center}
+\bigskip
+\bigskip
+
+Prve tri naloge so standardnega tipa in vredne vsaka $25$ to"ck.
+
+\noindent
+Zadnjih pet nalog je izbirnega tipa, pri "cemer je pravilen natanko en odgovor, ki prinese $5$ to"ck, nepravilen pa minus $1$ to"cko.
+Neodgovorjena naloga prinese $0$ to"ck, obkro"zen ve"c kot en odgovor pa minus $1$ to"cko.
+Odgovorite tako, da obkro"zite "crko pred pravilnim odgovorom.
+
+
+
+\begin{enumerate}
+
+\item{[25T]}
+Dolo"cite vse realne lastne vrednosti matrike 
+$$
+A=\begin{pmatrix}
+2&1&0\\
+1&2&1\\
+0&1&2
+\end{pmatrix}
+$$
+in določite lastni vektor, ki pripada največji lastni vrednosti.
+
+\medskip
+\textbf{Rešitev.}
+Karakteristi"cni polinom dobimo iz
+\[
+\det(A-\lambda I)=
+\begin{vmatrix}
+2-\lambda&1&0\\
+1&2-\lambda&1\\
+0&1&2-\lambda
+\end{vmatrix}
+=(2-\lambda)\bigl((2-\lambda)^2-1\bigr)-(2-\lambda)
+=(2-\lambda)\bigl((2-\lambda)^2-2\bigr).
+\]
+Ničle tega polinoma so
+\[
+\lambda_1=2+\sqrt{2},\qquad \lambda_2=2,\qquad \lambda_3=2-\sqrt{2},
+\]
+torej ima $A$ tri različne realne lastne vrednosti.
+
+Največja lastna vrednost je $\lambda_{\max}=2+\sqrt{2}$. Za pripadajoči lastni vektor $v=(x,y,z)^\top$ rešimo $(A-\lambda_{\max}I)v=0$, tj.
+\[
+\begin{pmatrix}
+-\sqrt{2}&1&0\\
+1&-\sqrt{2}&1\\
+0&1&-\sqrt{2}
+\end{pmatrix}
+\begin{pmatrix}x\\y\\z\end{pmatrix}
+=
+\begin{pmatrix}0\\0\\0\end{pmatrix}.
+\]
+Iz prve vrstice dobimo $-\sqrt{2}\,x+y=0$, torej $y=\sqrt{2}\,x$. Iz druge vrstice sledi
+$x-\sqrt{2}\,y+z=0 \;\Rightarrow\; x-2x+z=0 \;\Rightarrow\; z=x$.
+Tretja vrsta je odvisna od prvih dveh. Izberemo $x=1$ in dobimo lastni vektor
+\[
+v=\begin{pmatrix}1\\ \sqrt{2}\\ 1\end{pmatrix}.
+\]
+
+
+
+
+\item{[25T]}
+Poi"s"cite re"sitev diferencialne ena"cbe 
+$$
+x y'-y=x^3\sin(x^2).
+$$
+
+\textbf{Re"sitev.} Za"cetno diferencialno ena"cbo delimo z $x$ in najprej poi"s"cemo re"sitev homogenega dela 
+\[
+y'-\frac{y}{x}=0.
+\]
+Dobimo 
+\[
+\frac{dy}{y}=\frac{dx}{x}\quad\Rightarrow\quad y_h=Cx.
+\]
+Z variacijo konstante vzamemo $y_p=x\,C(x)$. Tedaj
+\[
+y_p'-\frac{y_p}{x}=(C+xC')-\frac{1}{x}(xC)=x\,C'(x),
+\]
+zato iz $y'-\frac{y}{x}=x^2\sin(x^2)$ sledi
+\[
+x\,C'(x)=x^2\sin(x^2)\quad\Rightarrow\quad C'(x)=x\sin(x^2).
+\]
+Integriramo s substitucijo $u=x^2$, $du=2x\,dx$ (torej $x\,dx=\tfrac12\,du$):
+\[
+C(x)=\int x\sin(x^2)\,dx=\frac12\int \sin u\,du
+=-\frac12\cos u + C_0
+=-\frac12\cos(x^2)+C_0.
+\]
+Za partikularno re"sitev lahko vzamemo $C_0=0$, torej
+\[
+y_p=-\frac{x}{2}\cos(x^2).
+\]
+Splo"sna re"sitev je
+\[
+\boxed{\,y(x)=Cx-\frac{x}{2}\cos(x^2).}
+\]
+
+
+
+
+
+\item{[25T]}
+Površje hribovja opisuje funkcija dveh spremenljivk
+\[
+f(x,y)=x^4-x^2+y^4-y^2+2.
+\]
+Planinsko dru"stvo bi rado postavilo planinske ko"ce na vsaj sedla. V katerih to"ckah se bodo to"cke nahajale. Koliko je najve"cja in najmanj"sa vi"sina hribovja.
+
+\textbf{Re"sitev.}
+Izračunamo
+\[
+f_x=4x^3-2x=2x(2x^2-1), \qquad
+f_y=4y^3-2y=2y(2y^2-1).
+\]
+Pogoj $f_x=f_y=0$ nam da
+\[
+x\in\Bigl\{0,\pm\frac{1}{\sqrt2}\Bigr\}, \qquad
+y\in\Bigl\{0,\pm\frac{1}{\sqrt2}\Bigr\},
+\]
+torej je skupaj $9$ kritičnih točk.
+
+Hessejeva matrika je enaka
+\[
+H_f(x,y)=
+\begin{pmatrix}
+12x^2-2 & 0\\
+0 & 12y^2-2
+\end{pmatrix}.
+\]
+
+\textbf{Klasifikacija.}
+\begin{itemize}
+  \item Pri $(0,0)$ imamo \emph{lokalni maksimum}, z $f(0,0)=2$.
+  \item Pri $\bigl(\pm\tfrac{1}{\sqrt2},\pm\tfrac{1}{\sqrt2}\bigr)$ imamo \emph{lokalni (dejansko globalni) minimum}, z vrednostjo
+  \[
+  f\!\left(\pm\tfrac{1}{\sqrt2},\pm\tfrac{1}{\sqrt2}\right)
+  =\Bigl(\tfrac14-\tfrac12\Bigr)+\Bigl(\tfrac14-\tfrac12\Bigr)=\tfrac32.
+  \]
+  \item Pri točkah $\bigl(\pm\tfrac{1}{\sqrt2},0\bigr)$ in
+  $\bigl(0,\pm\tfrac{1}{\sqrt2}\bigr)$ imamo
+  \emph{sedlo}.
+\end{itemize}
+
+
+
+
+
+\smallskip
+
+\item{[5T]}
+Koliko je rešitev diferencialne enačbe
+\[
+y''+4y'+4y=0
+\]
+z danimi začetnimi pogoji \(y(0)=0\) in \(y'(0)=1\)?
+\[
+\text{a) } e^{-2x}\qquad
+\text{b) } -2e^{-2x}\qquad
+\text{c) } -2xe^{x}\qquad
+\text{d) } \underline{xe^{-2x}}\qquad
+\text{e) } -2e^{x}
+\]
+
+\smallskip
+
+\item{[5T]}
+Koliko je rang matrike
+\[
+\begin{pmatrix}
+1&2&3\\
+2&4&5\\
+0&1&1
+\end{pmatrix}?
+\]
+\[
+\text{a) } 0\qquad
+\text{b) } 1\qquad
+\text{c) } 2\qquad
+\text{d) } \underline{3}\qquad
+\text{e) } 4
+\]
+
+\smallskip
+
+\item{[5T]}
+Katero izmed spodnjih števil leži v območju konvergence potenčne vrste
+\[
+\sum_{n=1}^{\infty}\frac{n}{3^{n}}(x+1)^{n}\,?
+\]
+\[
+\text{a) } -5\qquad
+\text{b) } -4\qquad
+\text{c) } \underline{0}\qquad
+\text{d) } 2\qquad
+\text{e) } 4\qquad
+\text{f) } 5
+\]
+
+\smallskip
+
+\item{[5T]}
+Koliko mora biti konstanta \(a\), da bodo točke \(A(0,1,2)\), \(B(1,3,0)\), \(C(a,2,1)\) in \(D(2,7,-1)\) ležale na isti ravnini?
+\[
+\text{a) } -2\qquad
+\text{b) } -1\qquad
+\text{c) } 0\qquad
+\text{d) } \underline{\tfrac{1}{2}}\qquad
+\text{e) } 2
+\]
+
+\smallskip
+
+\item{[5T]}
+Katera izmed spodnjih točk je stacionarna točka funkcije
+\[
+f(x,y)=\ln\!\bigl(3x+xy+y^{2}\bigr)\,?
+\]
+\[
+\text{a) } (0,1)\qquad
+\text{b) } (1,-1)\qquad
+\text{c) } (2,-1)\qquad
+\text{d) } (3,-2)\qquad
+\text{e) } \underline{(6,-3)}
+\]
+
+
+
+
+
+\end{enumerate}
+
+
+
+
+
+
+\newpage
+
+
+\large
+\begin{center}
+\Large IZPIT iz MATEMATIKE II\\Univerzitetni  "studij\\[2ex]
+\large 24. junij 2025
+\end{center}
+\bigskip
+\bigskip
+
+Prve tri naloge so standardnega tipa in vredne vsaka $25$ to"ck.
+
+\noindent
+Zadnjih pet nalog je izbirnega tipa, pri "cemer je pravilen natanko en odgovor, ki prinese $5$ to"ck, nepravilen pa minus $1$ to"cko.
+Neodgovorjena naloga prinese $0$ to"ck, obkro"zen ve"c kot en odgovor pa minus $1$ to"cko.
+Odgovorite tako, da obkro"zite "crko pred pravilnim odgovorom.
+
+
+
+\begin{enumerate}
+
+
+
+\item{[25T]}
+%Funkcijo $f(x)=2x+1$ podano na intervalu $[0,1]$ razvijte v kosinusno Fourierovo vrsto $F(x)$.
+
+Poi"s"cite re"sitev diferencialne ena"cbe 
+$$xy'-y=x^2(x-1)\operatorname{ln}(x+1).$$
+
+Re"sitev: Za"cetno diferencialno ena"cbo delimo z $x$ in najprej poi"s"cemo re"sitev homogenega dela 
+$$y'-\frac{y}{x}=0$$
+in dobimo 
+$\frac{dy}{y}=\frac{dx}{x}$ in po integriranju dobimo re"sitev
+$y_h=xC.$ Z variacijo konstante dobimo partikularno re"sitev  
+$y_p=xC(x)$. Izraz $y_p'-\frac{y_p}{x}=x\operatorname{ln}(x+1)$ se poenostavi v 
+$$C'(x)=(x-1)\operatorname{ln}(x+1),$$
+torej $C(x)=\int (x-1)\operatorname{ln}(x+1) dx$, integracija per partes nam da \[
+\,\displaystyle
+\int (x-1)\log(x+1)\,dx
+  =\left(\frac{x^{2}}{2}-x-\frac{3}{2}\right)\log|x+1|
+   -\frac{x^{2}}{4}+\frac{3x}{2}+C
+\,.
+\]
+
+\item{[25T]}  
+Izra"cunajte lastne vrednosti matrike 
+$$
+\begin{pmatrix}
+1& 1&2\\
+-1&-1&0\\
+0&-1&-1
+\end{pmatrix}
+$$
+in dolo"cite nek lastni vektor, ki ne pripada realni lastni vrednosti.
+
+Re"sitev: Lastne vrednosti so $1$, $ -1\pm i$, lastna vektorja od $ -1\pm i$ sta  $(-1, -i, 1), (-1, i, 1)$.
+
+%\item{[25T]}
+%Poi"s"cite pravokotno projekcijo to"cke $T(1,2,-1)$ na ravnino, ki ima normalo enako $\vec{n}=(5,11,4)$ in poteka skozi to"cko $A(-3,2,4)$. 
+
+%Re"sitev: to"cka $T$ le"zi na ravnini, tako da je projekcija to"cke $T$ na ravnino  enaka $T$.
+
+\smallskip
+\item{[25T]}
+
+"Zelimo zgraditi posodo v obliki valja brez pokrova, tako da bo posoda imela najve"cjo prostornino pri fiksni povr"sini $6\pi$. Koliko sta polmer in vi"sina dobljene posode.
+
+Re"sitev: Volumen valja je
+\[
+V = \pi r^2 h,
+\]
+površina valja brez pokrova pa je
+\[
+S = \pi r^2 + 2\pi r h = 6\pi.
+\]
+Pogoj preoblikujemo:
+\[
+r^2 + 2rh = 6.
+\]
+
+\bigskip
+
+
+Definiramo funkcijo:
+\[
+\mathcal{L}(r, h, \lambda) = \pi r^2 h - \lambda(\pi r^2 + 2\pi r h - 6\pi).
+\]
+
+Odvodi po spremenljivkah:
+\begin{align*}
+\frac{\partial \mathcal{L}}{\partial r} &= 2\pi r h - \lambda(2\pi r + 2\pi h) = 0, \\
+\frac{\partial \mathcal{L}}{\partial h} &= \pi r^2 - \lambda(2\pi r) = 0, \\
+\frac{\partial \mathcal{L}}{\partial \lambda} &= -(\pi r^2 + 2\pi r h - 6\pi) = 0.
+\end{align*}
+
+\bigskip
+
+Iz druge enačbe sledi:
+\[
+\pi r^2 = 2\pi r \lambda \quad \Rightarrow \quad \lambda = \frac{r}{2}.
+\]
+
+Vstavimo v prvo enačbo:
+\begin{align*}
+2\pi r h &= \frac{r}{2}(2\pi r + 2\pi h) = \pi r (r + h), \\
+2rh &= r(r + h), \\
+2h &= r + h \quad \Rightarrow \quad h = r.
+\end{align*}
+
+\bigskip
+
+Vstavimo v pogoj:
+\[
+r^2 + 2rh = 6 \quad \text{ker } h = r \Rightarrow r^2 + 2r^2 = 3r^2 = 6,
+\]
+\[
+r^2 = 2 \quad \Rightarrow \quad r = \sqrt{2}, \quad h = \sqrt{2}.
+\]
+
+\bigskip
+
+\textbf{Odgovor:} Valj z največjim volumnom ima
+\[
+\boxed{r = \sqrt{2}, \quad h = \sqrt{2}}.
+\]
+
+
+\smallskip
+\item{[5T]}
+Koliko je re"sitev diferencialne ena"cbe
+$y''+6y'+9y=0$ z danimi za"cetnimi pogoji $y(0)=0$ in $y'(0)=1$?
+$$
+a)~ e^{-3x}~~~
+b) ~-3e^{-3x}~~~
+c) ~-3xe^x~~~
+d) ~\underline{xe^{-3x}}~~~
+e) ~-3e^x~~~
+$$
+
+
+
+
+\smallskip
+
+\item{[5T]}
+
+Koliko je rang matrike 
+$$
+\begin{pmatrix}
+2&2&1\\
+4&2&1\\
+1&1&1
+\end{pmatrix}?
+$$
+
+$$a)~0~~~
+b) ~1~~~
+c) ~2~~~
+d)~ \underline{3}~~~
+e) ~4~~~
+$$
+
+
+\smallskip
+
+
+\item{[5T]}
+Katero izmed spodnjih "stevil le"zi v obmo"cju konvergence poten"cne vrste 
+$$\sum_{n=1}^{\infty}\frac{n^2}{2^n}\Big(x-\frac{3}{2}\Big)^n?$$
+$$
+a) ~-5~~~
+b) ~-2~~~
+c) ~\underline{1}~~~
+d) ~4~~~
+e) ~7~~~
+f)~10
+$$
+
+
+\item{[5T]}
+
+Koliko mora biti konstanta $a$, da bodo to"cke $A(1,1,1)$, $B(2,4,1)$, $C(a,2,3)$ in $D(-1,-3,2)$ le"zale na isti ravnini?
+$$a)~-2~~~
+b) ~-1~~~
+c) ~\underline{0}~~~
+d) ~1~~~
+e) ~2~~~
+$$
+
+
+\item{[5T]}
+
+Katera izmed spodnjih to"ck je stacionarna to"cka funkcije 
+$$f(x,y)=1+\operatorname{ln}(2x+xy+y^2)?$$
+
+
+%Katera izmed spodnjih mno"zic je mno"zica re"sitev karakteristi"cne ena"cbe od diferencialne ena"cbe 
+%$$x^2y''+xy'-y=0?$$
+
+$$a) ~(0,1)~~~
+b) ~(1,-1)~~~
+c) ~(2,-1)~~~
+d) ~(3,-2)~~~
+e) ~\underline{(4,-2)}~~
+$$
+
+
+
+
+\end{enumerate}
+
+\newpage 
+
+\large
+\begin{center}
+\Large KOLOKVIJ iz MATEMATIKE II\\Univerzitetni  "studij\\[2ex]
+\large 8. april 2025
+\end{center}
+\bigskip
+\bigskip
+
+
+
+
+
+
+\begin{enumerate}
+\item{[10T]}
+Izra"cunajte volumen piramide, ki ima ogli"s"ca $A(1,0,0)$, $B(0,1,0)$, $C(0,0,1)$ in $D(1,1,1)$.
+
+Re"sitev: $\frac{2}{6}=\frac{1}{3}$.
+
+
+\item{[10T]}
+Izra"cunaj razdaljo med ravninama $$x+2y+3z=0 \quad \text{in}\quad x+2y+3z=1.$$
+
+Re"sitev: ta razdalja je enaka razdalji med $(0,0,0)$ in ravnino $x+2y+3z=1$, ki je enaka $\frac{1}{\sqrt{14}}$.
+
+\item{[15T]}
+Dolo"cite neko lastno vrednost matrike
+$$A=\begin{pmatrix}
+1&1&-1\\
+1&2&1\\
+-3&1&3
+\end{pmatrix}$$
+ter izra"cunajte pripadajo"ci lastni vektor.
+
+
+
+Re"sitev: vidimo, da je lastna vrednost $\lambda=4$, saj sta v determinanti 
+\[
+\begin{vmatrix}
+1-\lambda & 1 & -1 \\
+1 & 2-\lambda & 1 \\
+-3 & 1 & 3-\lambda
+\end{vmatrix}
+\]
+prva in tretja vrstica enaki. Pripadajo"ci lastni vektor je enak $(-1,2,5)$.
+
+
+\item{[15T]}
+Za katere parametre $a\in \mathbb{R}$ so vektorji $(a,1,2,3)$, $(4,a,4,6)$ ter $(1,1,1,1)$ linearno odvisni?
+
+Re"sitev: izra"cunati je potrebno rang matrike 
+\[
+\begin{pmatrix}
+a & 1 & 2 & 3 \\
+4 & a & 4 & 6 \\
+1 & 1 & 1 & 1
+\end{pmatrix}
+\]
+ki je $2$, "ce je $a=2$, druga"ce pa je enak $3$. Tako je odgovor samo za $a=2$. 
+
+
+
+
+\newpage
+\item{[25T]}
+\begin{enumerate}
+\item[a)]
+Obravnavajte "stevilo re"sitev sistema linearnih ena"cb
+$$kx+2ky-z=2$$
+$$kx=9$$
+$$x+2y+z=1$$
+glede na vrednost parametra $k\in \mathbb{R}$. 
+\item[b)] 
+Za $k=1$ re"site sistem ena"cb. %Kaj geometrijsko predstavlja mno"zica re"sitev v tem primeru?
+\end{enumerate}
+
+Re"sitev: 
+Ko zamenjamo prvo in tretjo ena"cbo in nato "se prvi tretji stolpec, ter nato "se drugo in tretjo vrstico, dobimo sistem 
+$$
+\left[{\begin{array}{rrr|r}1&2&1&1\\-1&2k&k&2\\0&0&k&9\end{array}}\right]\sim \left[{\begin{array}{rrr|r}1&2&1&1\\0&2+2k&k+1&3\\0&0&k&9\end{array}}\right],$$
+kjer prvi stolpec predstavlja spremenljivko $z$, drugi stolpec spremenljivko $y$ in tretji stolpec spremenljivko $x$. Tako vidimo, da sistem nima re"sitve za $k=0$ in  $k=-1$, za vse preostale $k$ pa imamo natanko eno re"sitev. 
+Za $k=1$ dobimo re"sitev $x=9$, $z=-\frac{1}{2}$, $y=-\frac{15}{4}$.
+
+
+
+
+
+\item{[25T]}
+Naj bo $\mathcal{A}:\mathbb{R}^3\to \mathbb{R}^2$ linearna preslikava, ki preslika vektorje $$\begin{pmatrix}
+1\\
+0\\
+0
+\end{pmatrix}\mapsto 
+\begin{pmatrix}
+1\\
+2
+\end{pmatrix},~~~~\begin{pmatrix}
+0\\
+2\\
+0
+\end{pmatrix}\mapsto 
+\begin{pmatrix}
+2\\
+2
+\end{pmatrix},~~~~~
+\begin{pmatrix}
+1\\
+0\\
+1
+\end{pmatrix}\mapsto 
+\begin{pmatrix}
+3\\
+0
+\end{pmatrix}.$$
+Naj bo $\mathcal{B}:\mathbb{R}^3\to \mathbb{R}^3$ linearna preslikava, podana s predpisom $$\mathcal{B}(v)=w\times v,$$ kjer je $w=(0,1,1)\in \mathbb{R}^3$. Naj bo $\mathcal{C}$ linearna preslikava, ki ji v standardni bazi pripada matrika 
+$$C=
+\begin{pmatrix}
+ 1 & 2 & 3 \\
+ 0 & 1 & 1 \\
+ 0 & 0 & 2
+\end{pmatrix}.
+$$
+
+\begin{enumerate}
+\item Dolo"cite matriki, ki pripadata linearnima preslikavama $\mathcal{A}$ in $\mathcal{B}$ v standardnih bazah in dolo"cite njuna ranga. 
+\item Kam linearna preslikava $\mathcal{C}$ preslika vektor $(2,2,1)$?
+\item Kateri vektorji se preslikajo v vektor $(1,-1,1)$ s preslikavo $\mathcal{C}$?
+\item "Ce obstaja, zapi"site matriko v standardni bazi, ki pripada kompozitumu $\mathcal{C}\circ \mathcal{C}$. Odgovor utemeljite.
+\end{enumerate}
+ Re"sitev: 
+ 
+ a) vidimo, da velja 
+ $$B=\begin{pmatrix}
+0&-1&1\\
+1&0&0\\
+-1&0&0
+\end{pmatrix},~~~A=\begin{pmatrix}
+1&1&2\\
+2&1&-2\\
+\end{pmatrix}.$$
+
+b) Vektor $(\frac{5}{2},-\frac{3}{2},\frac{1}{2})$. 
+ %Odgovor pri b) vektorji $(1,1+x,x)$, $x\in \mathbb{R}$. 
+
+c) V vektor $(9,3,2)$.
+
+ d) Matrika, ki pripada $\mathcal{C}\circ \mathcal{C}$ je  \[ C^2=
+\begin{pmatrix}
+1 & 4 & 11 \\
+0 & 1 & 3 \\
+0 & 0 & 4
+\end{pmatrix}.
+\]
+
+
+
+
+
+\end{enumerate}
+
+
+\newpage 
+
+
+
+
+\large
+\begin{center}
+\Large IZPIT iz MATEMATIKE II\\Univerzitetni  "studij\\[2ex]
+\large 27. junij 2024
+\end{center}
+\bigskip
+\bigskip
+
+Prve tri naloge so standardnega tipa in vredne vsaka $25$ to"ck.
+
+\noindent
+Zadnjih pet nalog je izbirnega tipa, pri "cemer je pravilen natanko en odgovor, ki prinese $5$ to"ck, nepravilen pa minus $1$ to"cko.
+Neodgovorjena naloga prinese $0$ to"ck, obkro"zen ve"c kot en odgovor pa minus $1$ to"cko.
+Odgovorite tako, da obkro"zite "crko pred pravilnim odgovorom.
+
+
+
+\begin{enumerate}
+
+
+
+\item{[25T]}
+\begin{itemize}
+\item 
+Dolo"cite obmo"cje konvergence poten"cne vrste
+$$\sum_{n=0}^\infty \frac{(-1)^n}{n}(2x+6)^n.$$
+\item Razvijte funkcijo $f(x)=\frac{2}{x-3}$ v Taylorjevo vrsto okrog to"cke $x=0$ in dolo"cite njen konvergen"cni polmer.
+\end{itemize}
+Re"sitev: $a_n=\frac{(-1)^n}{n}2^n$ in $a=-3$. Izra"cunamo $R=\lim_{n\to \infty}\Big| \frac{a_n}{a_{n+1}}\Big|=\frac{1}{2}$, 
+torej vrsta konvergira za $x\in (-\frac{7}{2},-\frac{5}{2})$. Preverimo "se robne pogoje: za $x=-\frac{5}{2}: \sum_{n=1}^\infty\frac{(-1)^n}{n}$ konvergira (alt. harm. vrsta). Za $x=-\frac{5}{2}$:  $\sum_{n=1}^\infty\frac{1}{n}$ divergira (harm. vrsta). Torej vrsta konvergira za $x\in (-\frac{7}{2},-\frac{5}{2}]$.
+
+Velja
+$$f(x)=\frac{2}{3}\cdot\frac{1}{\frac{x}{3}-1}=\sum_{n=0}^\infty(-\frac{2}{3}\cdot\frac{1}{3^n})x^n.$$
+Konvergen"cni polmer je enak $3$.
+
+
+\item{[25T]}
+Izra"cunajte lastne vrednosti in pripadajo"ce lastne vektorje matrike 
+$$
+\begin{pmatrix}
+1& 2&1\\
+1&1&0\\
+-1&0&1
+\end{pmatrix}
+$$
+
+Re"sitev: Lastne vrednosti so $0,1,2$, pripadajo"ci lastni vektorji pa $(1,-1,1)$, $(-1,-1,1)$, $(0,-1,2)$.
+
+%\item{[25T]}
+%Poi"s"cite pravokotno projekcijo to"cke $T(1,2,-1)$ na ravnino, ki ima normalo enako $\vec{n}=(5,11,4)$ in poteka skozi to"cko $A(-3,2,4)$. 
+
+%Re"sitev: to"cka $T$ le"zi na ravnini, tako da je projekcija to"cke $T$ na ravnino  enaka $T$.
+
+
+
+
+
+
+
+\item{[25T]}
+Temperatura (merjena v stopinjah Celzija, ena enota je $0.1$ stopinj Celzija) na gladini jezera, ki ima obliko elipse $x^2+2y^2\leq 10,$
+je podana s funkcijo
+$f(x,y)=x^2+(y-1)^2+10$.
+
+\begin{itemize}
+\item Dolo"ci in klasificiraj stacionarne to"cke funkcije $f$.
+\item V kateri to"cki na jezeru je temperatura najve"cja in v kateri je najmanj"sa?
+\end{itemize}
+
+Re"sitev:  
+Lagrangeova funkcija je $$F(x,y,\lambda)=x^2+(y-1)^2+10-\lambda(x^2+2y^2-10),$$ njene stacionarne to"cke pa so $$T_1(-2\sqrt{2},-1),~~~T_2(2\sqrt{2},-1),~~~T_3(0,-\sqrt{5}),~~~T_4(0,\sqrt{5}).$$
+
+Stacionarna to"cka $f$ v notranjosti elipse pa je $T(0,1)$.
+
+Pora"cunamo "se $f(T)=10$, $f(T_1)=f(T_2)=22$, $f(T_3)=(-1-\sqrt{5})^2+10$ ter $f(T_4)=(-1+\sqrt{5})^2+10$. 
+ Najve"cja vrednost je torej v to"ckah $T_1$ in $T_2$, najmanj"sa pa v to"cki $T$.
+
+\smallskip
+\item{[5T]}
+Kaj je re"sitev diferencialne ena"cbe
+$y''+6y'+9y=0$ z danimi za"cetnimi pogoji $y(0)=0$ in $y'(0)=1$?
+$$
+a)~ e^{-3x}~~~
+b) ~-3e^{-3x}~~~
+c) ~-3xe^x~~~
+d) ~\underline{xe^{-3x}}~~~
+e) ~-3e^x~~~
+f) ~-xe^{-3x}~~~
+$$
+
+
+
+
+\smallskip
+
+\item{[5T]}
+
+Koliko je rang matrike 
+$$
+\begin{pmatrix}
+2&2&1\\
+4&2&1\\
+1&1&1
+\end{pmatrix}?
+$$
+
+$$a)~0~~~
+b) ~1~~~
+c) ~2~~~
+d)~ \underline{3}~~~
+e) ~4~~~
+f) ~5~~~
+$$
+
+\smallskip
+
+\item{[5T]}
+Kaj je re"sitev diferencialne ena"cbe
+$(x^2+1)y'-2xy=0$ z za"cetnim pogojem $y(0)=1$?
+
+$$a)~0~~~
+b) ~1~~~
+c) ~x+1~~~
+d)~ \underline{x^2+1}~~~
+e) ~x^3+1~~~
+f) ~x^4+1~~~
+$$
+
+
+\smallskip
+
+
+
+\item{[5T]}
+
+Koliko mora biti konstanta $a$, da bodo to"cke $A(a,1,1)$, $B(2,4,1)$, $C(0,2,3)$ in $D(-a,-3,2)$ le"zale na isti ravnini?
+$$a)~-2~~~
+b) ~-1~~~
+c) ~0~~~
+d) ~\underline{1}~~~
+e) ~2~~~
+f) ~3~~~
+$$
+
+
+\item{[5T]}
+
+Katera izmed spodnjih to"ck je stacionarna to"cka funkcije 
+$$f(x,y)=1+\operatorname{ln}((x+1)^2+xy+y)?$$
+
+
+%Katera izmed spodnjih mno"zic je mno"zica re"sitev karakteristi"cne ena"cbe od diferencialne ena"cbe 
+%$$x^2y''+xy'-y=0?$$
+
+$$a) ~\underline{(-1,0)}~~~
+b) ~(1,-1)~~~
+c) ~(2,-1)~~~
+d) ~(3,-2)~~~
+e) ~(4,-2)~~
+f) ~(5,-3)~~
+$$
+
+
+
+
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+
+\large
+\begin{center}
+\Large KOLOKVIJ iz MATEMATIKE II\\Univerzitetni  "studij\\[2ex]
+\large 15. april 2024
+\end{center}
+\bigskip
+\bigskip
+
+
+
+
+
+
+\begin{enumerate}
+
+\item{[10T]}
+Izra"cunajte razdaljo med ravninama $2x+3y+4z=2$ in $2x+3y+4z=0$.
+
+Re"sitev: Razdalja med danima ravninama je enaka razdalji med ravnino $2x+3y+4z=2$ ter to"cko $(0,0,0)$, ki pa je enaka $\frac{2}{\sqrt{4+9+16}}=\frac{2}{\sqrt{29}}$.
+
+\item{[10T]}
+Dolo"cite parameter $a\in \mathbb{R}$, tako da bodo vektorji 
+$$(1,1,a,1),~ (3-a,1,4-a,1),~ (1,2,3,1)\in \mathbb{R}^4$$ 
+linearno odvisni.
+
+Re"sitev: $a=2$, saj sta v tem primeru prva dva vektorja enaka. 
+
+\item{[15T]}
+Ali so vektorji $x_1=(1,0,1), x_2=(1,1,0), x_3=(0,1,1)$ baza vektorskega prostora $\mathbb{R}^3$? Odgovor utemeljite! "Ce je mogo"ce, zapi"site vektor $(3,5,4)$ kot linearno kombinacijo danih vektorjev $x_1,x_2,x_3$.
+
+Re"sitev: So baza, ker so linearno neodvisni in preko re"sitve linearnega sistema dobimo  $(3,5,4)=(1,0,1)+2(1,1,0)+3(0,1,1)$.
+
+
+
+\item{[15T]}
+Dolo"cite realno lastno vrednost matrike 
+$$A=\begin{pmatrix}
+1&1&1\\
+1&2&1\\
+0&1&2
+\end{pmatrix}
+$$
+ter pora"cunajte pripadajo"ci lastni vektor.
+
+Re"sitev: takoj opazimo, da je $\lambda=1$ lastna vrednost, ker sta prva in tretja vrstica matrike 
+$$A=\begin{pmatrix}
+1-\lambda&1&1\\
+1&2-\lambda &1\\
+0&1&2-\lambda
+\end{pmatrix}
+$$
+za $\lambda=1$, enaki.
+ Njen pripadajo"ci lastni vektor je $(0,-1,1)$.
+
+
+
+
+\item{[25T]}
+%"Zelimo zgraditi tristrano piramido, ki ima ogli"s"ca $A(-3,2,4)$, $B()$ 
+Letalo in helikopter po ravni "crti letita proti pristajalni stezi, ki ima obliko ravnine, na kateri le"zijo to"cke $A(4,3,1)$, $B(2,1,0)$ ter $C(1,2,0)$. Helikopter se nahaja v to"cki $(-1,5,5)$ in leti pravokotno na ravnino. Letalo se nahaja v to"cki $(2,0,1)$ ter se giblje po premici, ki je presek ravnin, podanih z ena"cbama $x-y+z=3$ in $x-2z=0$. V katerih to"ckah pristaneta helikopter in letalo ter pod kak"snim kotom leti letalo? Koliko sta helikopter in letalo v za"cetni poziciji oddaljeni od pristajalne steze?
+
+Re"sitev: Pristajalna steza ima obliko ravnine z ena"cbo $-x-y+4z=-3$, saj je normala te ravnine vektorski produkt vektorjev $\vec{BA}=(2,2,1)$ ter $\vec{CB}=(-1,1,0)$, kar je ravno $\vec{n}=(-1,-1,4)$. Projekcijo to"cke $(-1,5,5)$ na dano ravnino dobimo s presekom premice, ki poteka skozi to"cko  $(-1,5,5)$ in ima smerni vektor enak $\vec{n}$, ter dane ravnine. Ta to"cka je enaka $(-1+t,5+t,5-4t)$, ko vstavimo $t=\frac{19}{18}$.
+
+Letalo pa se giblje po premici, ki je v parametri"cni ena"cbi podana z $x=2t$, $y=3t-3$, $z=t$. Dobimo, da je presek z dano ravnino pristajalne steze pri $t=6$, torej v to"cki  $(12,15,6)$. Kot med $\vec{n}$ ter smernim vektorjem druge premice $\vec{s}=(2,3,1)$ je enak 
+$$\arccos(\frac{\vec{n}\cdot \vec{s}}{\sqrt{18}\sqrt{14}})=\arccos(\frac{1}{6\sqrt{7}}),$$
+torej dobimo ostri kot, kar pomeni, da je na"s iskani kot enak $\frac{\pi}{2}-\arccos(\frac{1}{6\sqrt{7}})$.
+
+Helikopter je oddaljen za $\frac{19}{\sqrt{18}}$, letalo pa za $\frac{5}{\sqrt{18}}$ od pristajalne steze.
+
+
+
+
+
+\item{[25T]}
+
+\begin{enumerate}
+\item[a)]
+Obravnavajte "stevilo re"sitev sistema linearnih ena"cb
+$$x+2y+z=1$$
+$$(k+2)x+7y+2z=4$$
+$$(k^2+2k-1)x+5y+z=k+2$$
+glede na vrednost parametra $k\in \mathbb{R}$. 
+\item[b)] 
+Za $k=0$ re"site sistem ena"cb. %Kaj geometrijsko predstavlja mno"zica re"sitev v tem primeru?
+\end{enumerate}
+
+Re"sitev: 
+$$
+\left[{\begin{array}{rrr|r}1&2&1&1\\2&7&k+2&4\\1&5&k^2+2k-1&k+2\end{array}}\right]\sim 
+\left[{\begin{array}{rrr|r}1&2&1&1\\0&3&k&2\\0&3&k^2+2k-2&k+1\end{array}}\right]
+\sim$$
+$$\sim\left[{\begin{array}{rrr|r}1&2&1&1\\0&3&k&2\\0&0&(k+2)(k-1)&k-1\end{array}}\right],$$
+kjer prvi stolpec predstavlja spremenljivko $z$, drugi stolpec spremenljivko $y$ in tretji stolpec spremenljivko $x$. Pri prvi operaciji smo uporabili $v_2-2v_1$ ter $v_3-v_1$ pri drugi operaciji pa $v_3-v_2$. Opazimo, da ima sistem eno-parametri"cno re"sitev za $k=1$ ter nima re"sitve za $k=-2$. Za vse preostale $k$-je pa ima natanko eno re"sitev. Za $k=0$ je ta re"sitev enaka 
+$x=\frac{1}{2}$, $y=\frac{2}{3}$, $z=-\frac{5}{6}$.
+%Za $k=0$ dobimo re"sitev $x=\frac{5}{7}$, $y=\frac{17}{14}$, $z=-\frac{1}{7}$
+
+
+
+
+
+\end{enumerate}
+
+\newpage 
+
+\large
+\begin{center}
+\Large KOLOKVIJ iz MATEMATIKE II\\Univerzitetni  "studij\\[2ex]
+\large 14. april 2023
+\end{center}
+\bigskip
+\bigskip
+
+
+
+
+
+
+\begin{enumerate}
+\item{[10T]}
+Za katere $t\in \mathbb{R}$ so vektorji $(1,2,-1)$, $(3,2,1)$ in $(0,t,1)$ linearno neodvisni?
+
+Re"sitev: Determinanta je enaka $-4-4t$, torej za $t\ne -1$.
+\item{[10T]}
+Izra"cunajte lastne vrednosti matrike 
+$$\begin{pmatrix}
+1&2\\
+1&3\\
+\end{pmatrix},$$
+ter zapi"site lastni vektor, ki pripada najve"cji lastni vrednosti.
+
+
+Re"sitev: Lastni vrednosti sta $2\pm \sqrt{3}$, lastni vektor, ki pripada lastni vrednosti $2+\sqrt{3}$ pa je enak $(-1+\sqrt{3},1)$.
+\item{[15T]}
+Za katero matriko $X$ velja ena"cba $AX=B$, kjer sta matriki $A$ in $B$ enaki
+$$A=\begin{pmatrix}
+1&0&2\\
+0&1&0\\
+1&0&1
+\end{pmatrix},~~~~~B=\begin{pmatrix}
+1&2&3\\
+2&3&4\\
+1&1&1
+\end{pmatrix}$$
+
+Re"sitev: $$\begin{pmatrix}
+1&0&-1\\
+2&3&4\\
+0&1&2
+\end{pmatrix}.$$
+
+
+
+\item{[15T]}
+"Zelimo zgraditi tristrano piramido s prostornino $12\operatorname{m}^3$. Osnovna ploskev piramide ima ogli"s"ca $$A(-2,2,-1), B(2,-1,-3), C(3,-3,1).$$ Zadnje ogli"s"ce $D$ "zelimo imeti na premici $$x=2-t,~~~y=3+2t,~~~z=1,~~~t\in \mathbb{R}.$$
+%\begin{enumerate}
+%\item 
+Katere to"cke lahko vzamemo za ogli"s"ce $D$?
+%\item Koliko je plo"s"cina osnovne ploskve piramide?
+%\item Katera izmed dobljenih to"ck za ogli"s"ce $D$ je najbli"zja premici, ki poteka skozi ogli"s"ci $A$ in $C$.
+
+
+Re"sitev: Naj bo $D$ to"cka na dani premici, torej velja $$D=(2-t,3+2t,1).$$ Izra"cunamo $\vec{AD}=(4-t,1+2t,2)$, $\vec{AB}=(4,-3,-2)$ ter $\vec{AC}=(5,-5,2)$. 
+Absolutna vrednost me"sanega produkta $|(\vec{AD},\vec{AB}),\vec{AC}|$ je enaka $|-92-20t|$, torej re"sujemo ena"cbo $|-92-20t|=6\cdot 12$, ki ima dve re"sitvi: $t_1=-1$ ter $t_2=-\frac{41}{5}$. Ti dve re"sitvi vstavimo v to"cko $D$ in dobimo dve re"sitvi $D_1(3,1,1)$ in $D_2(2+\frac{41}{5},3-\frac{82}{5},1)$.
+
+
+
+
+
+
+\item{[25T]}
+
+\begin{enumerate}
+\item[a)]
+Obravnavajte "stevilo re"sitev sistema linearnih ena"cb
+$$x+ky-2z=1$$
+$$kx+3z+2y=2$$
+$$x+4y-3z=6$$
+glede na vrednost parametra $k\in \mathbb{R}$. 
+\item[b)] 
+Za $k=0$ re"site sistem ena"cb. %Kaj geometrijsko predstavlja mno"zica re"sitev v tem primeru?
+\end{enumerate}
+
+Re"sitev: 
+Ko zamenjamo prvo in tretjo ena"cbo dobimo sistem 
+$$
+\left[{\begin{array}{rrr|r}1&4&-3&6\\k&2&3&2\\1&k&-2&1\end{array}}\right]\sim \left[{\begin{array}{rrr|r}-3&4&1&6\\3&2&k&2\\-2&k&1&1\end{array}}\right],$$
+kjer prvi stolpec predstavlja spremenljivko $z$, drugi stolpec spremenljivko $y$ in tretji stolpec spremenljivko $x$. Po Gaussovi eliminaciji dobimo
+$$\sim \left[{\begin{array}{rrr|r}-3&4&1&6\\0&6&k+1&8\\0&3k-8&1&-9\end{array}}\right]\sim
+\left[{\begin{array}{rrr|r}3&4&1&6\\0&1&\frac{k+1}{6}&\frac{8}{6}\\0&0&x_1&x_2\end{array}}\right],$$%\sim\left[{\begin{array}{rrr|r}1&-12&3&-11\\0&5&-1&7\\0&0&a-2&0\end{array}}\right].$$
+kjer $x_1=-3k^2+5k+14$, kar pomeni, da sistem nima re"sitve za $k_1=\frac{1}{6}(5-\sqrt{193})$, $k_2=\frac{1}{6}(5+\sqrt{193})$ (kar sta ni"cli $x_1$ in nista ni"cli $x_2$), za vse preostale $k$ pa imamo natanko eno re"sitev. 
+
+Za $k=0$ dobimo re"sitev $x=\frac{5}{7}$, $y=\frac{17}{14}$, $z=-\frac{1}{7}$.
+
+
+
+
+
+\item{[25T]}
+Naj bo $\mathcal{A}:\mathbb{R}^3\to \mathbb{R}^2$ linearna preslikava, ki preslika vektorje $$\begin{pmatrix}
+1\\
+0\\
+0
+\end{pmatrix}\mapsto 
+\begin{pmatrix}
+1\\
+2
+\end{pmatrix},~~~~\begin{pmatrix}
+0\\
+2\\
+0
+\end{pmatrix}\mapsto 
+\begin{pmatrix}
+1\\
+1
+\end{pmatrix},~~~~~
+\begin{pmatrix}
+2\\
+0\\
+1
+\end{pmatrix}\mapsto 
+\begin{pmatrix}
+3\\
+0
+\end{pmatrix}.$$
+Naj bo $\mathcal{B}:\mathbb{R}^3\to \mathbb{R}^3$ linearna preslikava, podana s predpisom $$\mathcal{B}(v)=w\times v,$$ kjer je $w=(1,1,0)\in \mathbb{R}^3$.
+
+\begin{enumerate}
+\item Dolo"cite matriki, ki pripadata linearnima preslikavama $\mathcal{A}$ in $\mathcal{B}$ v standardnih bazah in dolo"ci njuna ranga. 
+\item Kam linearna preslikava $\mathcal{A}$ preslika vektor $(2,2,1)$?
+\item Kateri vektorji se preslikajo v vektor $(1,-1,1)$ s preslikavo $\mathcal{B}$?
+\item "Ce obstaja, zapi"site matriko v standardni bazi, ki pripada kompozitumu $\mathcal{A}\circ \mathcal{B}$. Odgovor utemeljite.
+\end{enumerate}
+ Re"sitev: vidimo 
+ $$B=\begin{pmatrix}
+0&0&1\\
+0&0&-1\\
+-1&1&0
+\end{pmatrix},~~~A=\begin{pmatrix}
+1&\frac{1}{2}&1\\
+2&\frac{1}{2}&-4\\
+\end{pmatrix}$$
+
+odgovor pri b) v vektor $(1,1)+(3,0)=(4,1)$. Odgovor pri c) vektorji $(x,1+x,1)$, $x\in \mathbb{R}$. Matrika, ki pripada $\mathcal{A}\circ \mathcal{B}$ je produkt matrik $A\cdot B$.
+
+
+
+
+\end{enumerate}
+
+\newpage 
+
+\large
+\begin{center}
+\Large IZPIT iz MATEMATIKE II\\Univerzitetni  "studij\\[2ex]
+\large 29. junij 2022
+\end{center}
+\bigskip
+\bigskip
+
+Prve tri naloge so standardnega tipa in vredne vsaka $25$ to"ck.
+
+\noindent
+Zadnjih pet nalog je izbirnega tipa, pri "cemer je pravilen natanko en odgovor, ki prinese $5$ to"ck, nepravilen pa minus $1$ to"cko.
+Neodgovorjena naloga prinese $0$ to"ck, obkro"zen ve"c kot en odgovor pa minus $1$ to"cko.
+Odgovorite tako, da obkro"zite "crko pred pravilnim odgovorom.
+
+
+
+\begin{enumerate}
+
+\item{[25T]}
+
+Za katere $k\in \mathbb{R}$ ima spodnji sistem linearnih ena"cb re"sitev? 
+$$4x+ky-10z=-8$$
+$$
+x+2y+kz=1
+$$
+$$3x+ky-6z=-5.$$
+Poi"s"ci re"sitev za $k=1$.
+
+Re"sitev: 
+"Ce prvi vrstici od"stejemo zadnjo dobimo sistem
+$$\begin{bmatrix}
+1 & 0 & -4 &|&-3\\
+1 & 2 & k &|&1\\
+3 & k & -6 &|&-5
+\end{bmatrix}\sim \begin{bmatrix}
+1 & 0 & -4 &|&-3\\
+0 & 2 & k+4 &|&4\\
+0 & k & 6 &|&4
+\end{bmatrix}\sim
+\begin{bmatrix}
+1 & 0 & -4 &|&-3\\
+0 & 2 & k+4 &|&4\\
+0 & 0 & (k+6)(k-2) &|&4(k-2)
+\end{bmatrix}$$ 
+Tako vidimo, da za $k=-6$ sistem nima re"sitve, za $k=2$ ima neskon"cno re"sitev, za preostale $k$ pa ima natanko eno re"sitev. Za $k=1$ ima sistem re"sitev $x=\frac{-5}{7}$, $y=\frac{4}{7}$, $z=\frac{4}{7}$.
+\item{[25T]}
+
+Funkcija $f(x,y)=x^2+x+6y^2+5$ predstavlja vi"sino makete, ki se nahaja nad elipso $\frac{x^2}{4}+y^2\leq 1$. V kateri to"cki je vi"sina makete najve"cja in v kateri najmanj"sa? Ena enota v koordinatnem sistemu je en decimeter.
+
+Re"sitev: Stacionarna to"cka v notranjosti je $(-\frac{1}{2},0)$. Lagrangeova funkcija je 
+$$F(x,y,\lambda)=x^2+x+6y^2+5-\lambda(\frac{x^2}{4}+y^2-1).$$
+Re"sitev sistema ena"cb 
+$$F_x=2x+1-\frac{\lambda x}{2}=0$$
+$$F_y=12y-2\lambda y=0$$
+$$F_{\lambda}=\frac{x^2}{4}+y^2-1=0$$
+pa nam da to"cke $(-2,0)$, $(2,0)$, $(1,-\frac{\sqrt{3}}{2})$, $(1,\frac{\sqrt{3}}{2})$: lo"cimo dva primera pri $F_y=0$: prvi je $y=0$ kar nam da prvi dve to"cki, drugi pa je $\lambda=6$, kar nam da $x=1$ iz $F_x=0$, iz "cesar dobimo preostali dve to"cki. Najve"cja vi"sina je torej pri to"ckah $(1,-\frac{\sqrt{3}}{2})$, $(1,\frac{\sqrt{3}}{2})$ (enaka $\frac{23}{2}$), najmanj"sa pa pri to"cki $(-\frac{1}{2},0)$ (enaka $\frac{19}{4}$).
+
+
+\item{[25T]}
+%Funkcijo $f(x)=2x+1$ podano na intervalu $[0,1]$ razvijte v kosinusno Fourierovo vrsto $F(x)$.
+
+Poi"s"cite re"sitev diferencialne ena"cbe 
+$$y'-\frac{2y}{x}=x^2\operatorname{ln}(x)$$
+pri za"cetnem pogoju $y(1)=0$.
+
+Re"sitev: Najprej poi"s"cemo re"sitev homogenega dela 
+$$y'-\frac{2y}{x}=0$$
+in dobimo 
+$\frac{dy}{y}=\frac{2dx}{x}$ in po integriranju dobimo re"sitev
+$y_h=x^2C.$ Z variacijo konstante dobimo partikularno re"sitev  
+$y_p=x^2C(x)$. Izraz $y_p'-\frac{y_p}{x}=x^2\operatorname{ln}(x)$ se poenostavi v 
+$$C'(x)=\operatorname{ln}(x),$$
+torej $C(x)=-x+x\operatorname{ln}(x)$, kar sledi z uporabo per-partesa ($u=\operatorname{ln}(x)$, $dv=dx$). Iz tega sledi, da je re"sitev enaka $x^2C+x^3(\operatorname{ln}(x)-1)$, ko upo"stevamo "se za"cetni pogoj dobimo $C=1$, kar pomeni, da je na"sa re"sitev enaka $y(x)=x^2+x^3(\operatorname{ln}(x)-1).$
+
+
+\smallskip
+\item{[5T]}
+Kateri izmed spodnjih vektorjev je lastni vektor, ki pripada lastni vrednosti $2$ od matrike
+$$
+\begin{pmatrix}
+1&0&1\\
+1&1&1\\
+0&1&0
+\end{pmatrix}?
+$$
+$$
+a) ~(1,1,1)~~~
+b)~\underline{(1,2,1)}~~~
+c) ~(1,3,1)~~~
+d) ~(1,4,1)~~~
+e) ~(1,5,1)~~~
+$$
+\smallskip
+\item{[5T]}
+Koliko je re"sitev diferencialne ena"cbe
+$y''+2y'+y=0$, z danimi za"cetnimi pogoji $y(0)=0$ in $y'(0)=2$?
+$$
+a) ~e^{-x}x~~~
+b) ~\underline{2e^{-x}x}~~~
+c) ~e^{-2x}x~~~
+d)~2e^{-2x}x~~~
+e) ~e^{-x}+e^x~~~
+$$
+
+
+
+
+\smallskip
+
+\item{[5T]}
+
+Koliko je rang matrike 
+$$
+\begin{pmatrix}
+1&1&3\\
+1&1&4\\
+1&2&5
+\end{pmatrix}?
+$$
+
+$$a)~0~~~
+b) ~1~~~
+c) ~2~~~
+d)~ \underline{3}~~~
+e) ~4~~~
+$$
+
+
+\smallskip
+
+\item{[5T]}
+
+Katero izmed spodnjih "stevil le"zi v obmo"cju konvergence poten"cne vrste 
+$$\sum_{n=1}^{\infty}\frac{(2x-1)^n}{n}?$$
+$$
+a) ~\underline{0}~~~
+b) ~1~~~
+c) ~2~~~
+d) ~3~~~
+e) ~4
+$$
+
+
+
+\item{[5T]}
+
+Dana je linearna preslikava $\mathcal{A}(x,y,z)=(x+y,y-x+z)$. Kateri izmed spodnjih vektorjev se s to preslikavo preslika v vektor $(2,1)$?
+$$
+a) ~\underline{(1,1,1)}~~~
+b) ~(2,1,1)~~~
+c) ~(3,1,1)~~~
+d) ~(4,1,1)~~~
+e) ~(5,1,1)
+$$
+
+
+
+
+
+\end{enumerate}
+
+
+
+
+
+
+
+\newpage 
+
+
+
+
+
+\large
+\begin{center}
+\Large IZPIT iz MATEMATIKE II\\Univerzitetni  "studij\\[2ex]
+\large 15. junij 2022
+\end{center}
+\bigskip
+\bigskip
+
+Prve tri naloge so standardnega tipa in vredne vsaka $25$ to"ck.
+
+\noindent
+Zadnjih pet nalog je izbirnega tipa, pri "cemer je pravilen natanko en odgovor, ki prinese $5$ to"ck, nepravilen pa minus $1$ to"cko.
+Neodgovorjena naloga prinese $0$ to"ck, obkro"zen ve"c kot en odgovor pa minus $1$ to"cko.
+Odgovorite tako, da obkro"zite "crko pred pravilnim odgovorom.
+
+
+
+\begin{enumerate}
+
+\item{[25T]}
+
+Za katere $k\in \mathbb{R}$ ima spodnji sistem linearnih ena"cb re"sitev? 
+$$
+kx+2y+3z=2
+$$
+$$3x+2y-z=8$$
+$$x-y-2z=1$$
+
+Poi"s"ci re"sitev za $k=3$.
+
+Re"sitev: z Gaussovo eliminacijo dobimo, da za $k=-1$ sistem nima re"sitev, za $k\ne -1$ ima enoli"cno re"sitev, ki je za $k=3$ enaka $x=\frac{1}{2}$, $y=\frac{5}{2}$ in $z=-\frac{3}{2}$.
+
+\item{[25T]}
+Gozdna pot ima obliko elipse $$\frac{(x+1)^2}{4}+\frac{y^2}{9}=1.$$ Nahajamo se v gozdu na to"cki $(-1,1)$ in se po najkraj"si mo"zni poti odpravimo proti gozdni poti. V katero to"cko na poti pridemo ter koliko poti prehodimo? Ena enota v koordinatnem sistemu je en kilometer. 
+
+Re"sitev: Razdalja od to"cke $T(-1,1)$ do poljubne to"cke na elipsi je enaka $\sqrt{(x+1)^2+(y-1)^2}$ in brez "skode za splo"snost lahko za iskanje minimuma vzamemo kvadrat razdalje. Tako dobimo Lagrangeovo funkcijo 
+$$F(x,y,\lambda)=(x+1)^2+(y-1)^2-\lambda\Big(\frac{(x+1)^2}{4}+\frac{y^2}{9}-1\Big).$$ 
+Ko re"simo sistem ena"cb 
+$$F_x=F_y=F_\lambda=0$$
+dobimo stacionarne to"cke 
+$$T_1(-4,0),~T_2(-\frac{14}{5},-\frac{8}{5}),~T_3(\frac{-14}{5},\frac{8}{5}),~T_4(2,0),$$
+od katerih sta $T_2$ in $T_3$ najmanj oddaljeni od $T$. Ta razdalja je $\frac{3\sqrt{2}}{\sqrt{5}}$.
+\item{[25T]}
+%Funkcijo $f(x)=2x+1$ podano na intervalu $[0,1]$ razvijte v kosinusno Fourierovo vrsto $F(x)$.
+
+Poi"s"cite re"sitev diferencialne ena"cbe 
+$$y'-2xy=x^3$$
+pri za"cetnem pogoju $y(0)=1$.
+
+Re"sitev: Najprej poi"s"cemo re"sitev homogenega dela 
+$$y'-2xy=0$$
+in dobimo 
+$\frac{dy}{y}=2xdx$ in po integriranju dobimo re"sitev
+$y_h=Ce^{x^2}.$ Z variacijo konstante dobimo partikularno re"sitev  
+$y_p=C(x)e^{x^2}$. Izraz $y_p'-2xy_p=x^3$ se poenostavi v 
+$$C'(x)=x^3e^{-x^2},$$
+kar re"simo z uvedbo nove spremenljivke $t=x^3$. Na koncu dobimo re"sitev $y=-\frac{1}{2}(1+x^2)+Ce^{x^2}$ in ko vstavimo za"cetni pogoj $y(0)=1$ dobimo $C=\frac{3}{2}$.
+
+
+\smallskip
+\item{[5T]}
+Katera je lastna vrednost matrike 
+$$
+\begin{pmatrix}
+1&2&3\\
+4&1&5\\
+1&1&0
+\end{pmatrix}?
+$$
+$$
+a) ~-1~~~
+b)~\underline{-2}~~~
+c) ~-3~~~
+d) ~-4~~~
+e) ~-5~~~
+$$
+\smallskip
+\item{[5T]}
+Koliko je re"sitev diferencialne ena"cbe
+$x^2y''+xy'-4y=0$, z danimi za"cetnimi pogoji $y(1)=0$ in $y(2)=15$?
+$$
+a) ~-\frac{2}{x^3}+2x^3~~~
+b) ~-\frac{4}{x^3}+4x^3~~~
+c) ~-\frac{2}{x^2}+2x^2~~~
+d)~\underline{-\frac{4}{x^2}+4x^2}~~~
+e) ~-\frac{2}{x^2}+2x^2\operatorname{ln}x ~~~
+$$
+
+
+
+
+\smallskip
+
+\item{[5T]}
+
+Koliko je rang matrike 
+$$
+\begin{pmatrix}
+1&2&3\\
+-2&-4&-6\\
+3&6&9
+\end{pmatrix}?
+$$
+
+$$a)~0~~~
+b) ~\underline{1}~~~
+c) ~2~~~
+d)~ 3~~~
+e) ~4~~~
+$$
+
+
+\smallskip
+
+\item{[5T]}
+
+Kateri izmed spodnjih intervalov je obmo"cje konvergence poten"cne vrste 
+$$\sum_{n=1}^{\infty}\frac{(x-3)^n}{n-4}?$$
+$$
+a) ~(2,4]~~~
+b) ~(2,4)~~~
+c) ~\underline{[2,4)}~~~
+d) ~(2,4]~~~
+e) ~(3,4]
+$$
+
+
+
+\item{[5T]}
+
+Dana je linearna preslikava $\mathcal{A}(x,y,z)=(2x+y,y-z)$. Naj bo $A$ pripadajo"ca matrika linearne preslikave $\mathcal{A}$ in naj bo matrika $$B=
+\begin{bmatrix}
+1 & 0 \\
+0 & 1 \\
+0 & 0
+\end{bmatrix}.
+$$ Koliko je produkt $A\cdot B$? 
+$$a)~ \begin{bmatrix}
+1 & 1 \\
+0 & 1 \\
+\end{bmatrix}~~~
+\underline{b)} ~\begin{bmatrix}
+2 & 1 \\
+0 & 1 \\
+\end{bmatrix}~~~
+c) ~\begin{bmatrix}
+3 & 1 \\
+0 & 1 \\
+\end{bmatrix}~~~
+d) ~\begin{bmatrix}
+4 & 1 \\
+0 & 1 \\
+\end{bmatrix}~~~
+e) ~\begin{bmatrix}
+5 & 1 \\
+0 & 1 \\
+\end{bmatrix}~~~
+$$
+
+
+
+
+
+
+\end{enumerate}
+
+
+\newpage 
+
+
+
+
+\large
+\begin{center}
+\Large KOLOKVIJ iz MATEMATIKE II\\Univerzitetni "studij\\[2ex]
+\large 30. maj 2022
+\end{center}
+\bigskip
+\bigskip
+
+
+\begin{enumerate}
+
+
+%\item{[10T]}
+%Dolo"cite konstanto $t$, da bosta vektorja $(1,2,t)$ in $(1,2,3)$ pravokotna.
+
+
+\smallskip
+\item{[10T]}
+Re"site diferencialno ena"cbo
+$$x^2y''+2xy'=6y,$$
+pri pogojih $y(1)=0$ ter $y(-1)=1$.
+
+Re"sitev: nastavek $y=x^{\lambda}$ nam da karakteristi"cno ena"cbo $\lambda(\lambda-1)+2\lambda -6=(\lambda-2)(\lambda+3)$, torej je re"sitev oblike 
+$$Ax^{-3}+Bx^2.$$
+Ko vstavimo pogoje dobimo $A=-\frac{1}{2}$ ter $B=\frac{1}{2}$.
+
+
+
+\item{[10T]}
+Naj bo $F(x)$ Fourierova vrsta periodi"cne funkcije $$f(x)=\left\{\begin{array}{cc}
+1&~;0\leq x<1 \\
+x^3+2&~;0\leq x < \pi
+\end{array}
+\right.$$ 
+s periodo $2\pi$.
+Pribli"zno skicirajte $F(x)$ na intervalu $[-3\pi,3\pi]$ in izra"cunajte koliko je $F(2\pi)$. 
+
+Re"sitev: $F(x)=f(x)$ za vse $x$ razen za tiste $x$, kjer $f$ ni zvezna. Tam je $F(x)$ povpre"cna vrednost leve in desne limite od $f$. Tako je $F(2\pi)=F(0)=\frac{-1+2}{2}=\frac{1}{2}$.
+
+
+
+\item{[15T]}
+Razvijte funkcijo $f(x)=\frac{2}{x-3}-\frac{2}{x-2}$ v Taylorjevo vrsto okrog to"cke $x=0$ in dolo"ci njen konvergen"cni polmer.
+
+Re"sitev: Velja
+$$f(x)=\frac{2}{3}\cdot\frac{1}{\frac{x}{3}-1}-\frac{1}{\frac{x}{2}-1}.$$
+Ti dve vrsti pa razvijemo v geometrijsko vrsto in dobimo 
+$$f(x)=\sum_{n=0}^\infty(-\frac{2}{3}\cdot\frac{1}{3^n}+\frac{1}{2^n})x^n.$$
+Konvergen"cni polmer je enak $2$.
+
+
+
+\item{[15T]}
+Dolo"cite obmo"cje konvergence poten"cne vrste
+$$\sum_{n=1}^\infty \frac{(-1)^n}{n}(2x+3)^n.$$
+
+Re"sitev: Velja $\frac{(-1)^n}{n}(2x+3)^n=\frac{(-1)^n}{n}2^n(x+\frac{3}{2})^n$, torej je $a_n=\frac{(-1)^n}{n}2^n$ in $a=-\frac{3}{2}$. Izra"cunamo $R=\lim_{n\to \infty}\Big| \frac{a_n}{a_{n+1}}\Big|=\frac{1}{2}$, 
+torej vrsta konvergira za $x\in (-2,-1)$. Preverimo "se robne pogoje: za $x=-1:\sum_{n=1}^\infty\frac{(-1)^n}{n}$ konvergira (alt. harm. vrsta). Za $x=-2$:  $\sum_{n=1}^\infty\frac{1}{n}$ divergira (harm. vrsta). Torej vrsta konvergira za $x\in (-2,-1]$.
+
+\item{[25T]}
+Poi"s"cite re"sitev diferencialne ena"cbe 
+$$y'-\frac{y}{x^2}=2xe^{\frac{-1+x^3}{x}}$$
+pri za"cetnem pogoju $y(1)=0$.
+
+Re"sitev: Najprej poi"s"cemo re"sitev homogenega dela 
+$$y'-\frac{y}{x^2}=0$$
+in dobimo 
+$\frac{dy}{y}=\frac{dx}{x^2}$ in po integriranju dobimo re"sitev
+$y_h=e^{-\frac{1}{x}}C.$ Z variacijo konstante dobimo partikularno re"sitev  
+$y_p=e^{-\frac{1}{x}}C(x)$. Izraz $y_p'-\frac{y_p}{x^2}=2xe^{\frac{-1+x^3}{x}}$ se poenostavi v 
+$$C'(x)=2xe^{x^2}.$$
+Vpeljava nove spremenljivke $t=e^{x^2}$ nam da $C(x)=\int 2xe^{x^2}dx=e^{x^2},$ torej je re"sitev enaka $e^{-\frac{1}{x}}C+e^{x^2-\frac{1}{x}}$, ko upo"stevamo "se za"cetni pogoj dobimo $C=-e$, kar pomeni, da je na"sa re"sitev enaka $y(x)=-e^{-\frac{1}{x}+1}+e^{x^2-\frac{1}{x}}.$
+
+
+\smallskip
+\item{[25T]}
+Temperatura na kovinski krogli $x^2+y^2+z^2\leq 4,$
+je podana s funkcijo
+$f(x,y,z)=x^2+y$.
+V kateri to"cki na robu te krogle je temperatura najve"cja in v kateri je najmanj"sa?
+
+Re"sitev:  Lagrangeva funkcija je $$F(x,y,z,\lambda)=x^2+y-\lambda(x^2+y^2+z^2-4),$$ njene stacionarne to"cke pa so $$T_1(0,-2,0),~~~T_2(-\frac{\sqrt{15}}{2},\frac{1}{2},0),~~~T_3(\frac{\sqrt{15}}{2},\frac{1}{2},0),~~~T_4(0,2,0).$$
+Pora"cunamo "se $f(T)=1$, $f(T_1)=-2$, $f(T_2)=f(T_3)=\frac{19}{4}$ ter $f(T_4)=2$. 
+ Najve"cja vrednost je torej v to"ckah $T_2$ in $T_3$, najmanj"sa pa v to"cki $T_1$.
+
+
+
+
+
+
+\end{enumerate}
+
+\newpage 
+
+
+
+\large
+\begin{center}
+\Large KOLOKVIJ iz MATEMATIKE II\\Univerzitetni "studij\\[2ex]
+\large 8. april 2022
+\end{center}
+\bigskip
+\bigskip
+\begin{enumerate}
+\item{[10T]}
+Izra"cunajte rang matrike
+$$
+\begin{pmatrix}
+7&3&-3\\
+-21&-7&8\\
+7&1&-2
+\end{pmatrix}.
+$$
+Ali je matrika obrnljiva? Odgovor utemeljite.
+
+Re"sitev: Z Gaussovo eliminacijo dobimo, da je rang enak $2$ in tako matrika ni obrnljiva.
+
+
+\smallskip
+\item{[10T]}
+Izra"cunajte lastne vrednosti matrike 
+$$
+\begin{pmatrix}
+1&1&1\\
+-2&-1&0\\
+-1&0&-1
+\end{pmatrix}
+$$
+
+Re"sitev: 
+$$
+\begin{vmatrix}
+    1-\lambda       & 1  & 1  \\
+    -2       & -1-\lambda  & 0 \\
+    -1       & 0  & -1-\lambda\\
+    \end{vmatrix}=\cdots=(-1-\lambda)(\lambda^2+2)
+$$
+in tako so lastne vrednosti enake $-1$, $\sqrt{2}i$, $-\sqrt{2}i$.
+%Izberite si dve lastni vrednosti in izra"cunajte pripadajo"ce lastne vektorje.
+
+
+
+\item{[10T]}
+Ali se da vektor $(2,-1,1)$ zapisati kot linearno kombinacijo vektorjev $(2,4,6)$ in $(-3,4,1)$? "Ce je mogo"ce poi"s"cite tako linearno kombinacijo.
+
+Re"sitev:
+z re"sitvijo linearnega sistema dobimo $$(2,-1,1)=\frac{1}{4}(2,4,6)-\frac{1}{2}(-3,4,1).$$
+
+
+\item{[10T]}
+Izra"cunajte produkt matrik $A\cdot B$, kjer je $A$ matrika, ki pripada linearni preslikavi $\mathcal{A}:\mathbb{R}^3\to \mathbb{R}^2$, $\mathcal{A}(x,y,z)=(3x+y,2y+3z)$, matrika $B$ pa je enaka 
+$$\begin{pmatrix}
+1&2\\
+0&-1\\
+3&2
+\end{pmatrix}.$$ 
+
+Re"sitev: matrika $A$ je enaka 
+$$
+\begin{pmatrix}
+3&1&0\\
+0&2&3
+\end{pmatrix}
+$$
+in tako dobimo, da je 
+$$A\cdot B=\begin{pmatrix}
+3&5\\
+9&4
+\end{pmatrix}$$
+
+\item{[10T]}
+Izra"cunajte inverz matrike 
+$$
+A=\begin{pmatrix}
+0&3&1\\
+-2&-1&0\\
+-1&0&-1
+\end{pmatrix}.
+$$
+
+Re"sitev: 
+$$
+A^{-1}=\frac{1}{7}
+\begin{pmatrix}
+-1&-3&-1\\
+2&-1&2\\
+1&3&-6
+\end{pmatrix}.
+$$
+
+
+\item{[25T]}
+
+\begin{enumerate}
+\item[a)]
+Obravnavajte "stevilo re"sitev sistema linearnih ena"cb
+$$x+ay-7z=-4$$
+$$2x+y+z=13$$
+$$x+3y-12z=-11$$
+glede na vrednost parametra $a\in \mathbb{R}$. 
+\item[b)] 
+Pri $a=2$ re"site sistem ena"cb. Kaj geometrijsko predstavlja mno"zica re"sitev v tem primeru?
+\end{enumerate}
+
+Re"sitev: 
+Ko zamenjamo prvo in tretjo ena"cbo dobimo za re"siti sistem 
+$$
+\left[{\begin{array}{rrr|r}1&-12&3&-11\\2&1&1&13\\1&-7&a&-4\end{array}}\right],$$
+kjer prvi stolpec predstavlja spremenljivko $x$, drugi stolpec spremenljivko $z$ in tretji stolpec spremenljivko $y$. Po Gaussovi eliminaciji dobimo
+$$\sim \left[{\begin{array}{rrr|r}1&-12&3&-11\\0&25&-5&35\\0&5&a-3&7\end{array}}\right]\sim
+\left[{\begin{array}{rrr|r}1&-12&3&-11\\0&5&-1&7\\0&5&a-3&7\end{array}}\right]\sim\left[{\begin{array}{rrr|r}1&-12&3&-11\\0&5&-1&7\\0&0&a-2&0\end{array}}\right].$$
+
+
+za $a=2$ imamo ve"cparameteri"cno re"sitev, ki je enaka $x=-3t+10$, $y=5t-7$, $z=t$, $t\in \mathbb{R}$ in tako re"sitev predstavlja premico. Za preostale $a$ dobimo enoli"cno re"sitev.
+
+\item{[25T]}
+"Zelimo zgraditi dve tristrani piramidi z ogli"s"ci $A(0,0,0)$, $B(1,2,0)$ ter $C(1,0,2)$ v koordinatnem sistemu, kjer ena enota meri $1\operatorname{m}$. 
+\begin{itemize}
+\item[a)] 
+Prva piramida naj ima prostornino $10\operatorname{m}^3$. Kam moramo postaviti ogli"s"ce $D$, da bo to ogli"s"ce le"zalo na premici $$x-2=y=\frac{z}{2}?$$ 
+\item[b)] 
+Druga piramida naj ima ogli"s"ce $D(0,1,1)$. Koliko je vi"sina skozi ogli"s"ce $A$?
+\end{itemize}
+ Re"sitev: 
+\renewcommand{\vec}{\overrightarrow}
+Izra"cunamo
+ $$\vec{AB}=(1,2,0),~~~\vec{AC}=(1,0,2),~~~\vec{AD}=(k+2,k,2k),$$
+ saj $D(k+2,k,2k)$ za nek $k\in \mathbb{R}$.
+ Velja $$(\vec{AB},\vec{AC},\vec{AD})=\begin{vmatrix}
+1&2&0\\
+1&0&2\\
+k+2&k&2k
+\end{vmatrix}=-2k+8.$$
+ Re"sitev ena"cbe $|-2k+8|=6\cdot V=60$ je $k_1=34$, $k_2=-26$ torej imamo dve mo"znosti za ogli"s"ce D in sicer $D_1(36,34,68)$ in $D_2(-24,-26,-52)$. 
+ 
+ Pri drugi piramidi izra"cunamo 
+ $$\vec{BC}=(0,-2,2),~~~\vec{BD}=(-1,-1,1),~~~\vec{BA}=(-1,-2,0)$$
+ in tako
+  $$v_A=\frac{|(\vec{BC},\vec{BD},\vec{BA})|}{|\vec{BC}\times \vec{BD}|}=\sqrt{2}\operatorname{m}.$$
+ %Pri prvi piramidi imamo  ogli"s"ce $D$ ima koordinate $D(a+2,a,2a)$ ter z izra"cunom prostornine dobimo $a=1$. Pri drugi piramidi pa imamo vi"sino enako $\frac{4}{2\sqrt{6}}=\frac{\sqrt{6}}{3}$ ter tako dobimo vektor vi"sine $\frac{\sqrt{6}}{3}\frac{1}{\sqrt{6}}(2,-1,-1)=\frac{1}{3}(2,-1,-1)$.
+
+
+\end{enumerate}
+
+
+
+\newpage
+
+
+
+\large
+\begin{center}
+\Large IZPIT iz MATEMATIKE II\\Univerzitetni  "studij\\[2ex]
+\large 9. februar 2022
+\end{center}
+\bigskip
+\bigskip
+
+Prve tri naloge so standardnega tipa in vredne vsaka $25$ to"ck.
+
+\noindent
+Zadnjih pet nalog je izbirnega tipa, pri "cemer je pravilen natanko en odgovor, ki prinese $5$ to"ck, nepravilen pa minus $1$ to"cko.
+Neodgovorjena naloga prinese $0$ to"ck, obkro"zen ve"c kot en odgovor pa minus $1$ to"cko.
+Odgovorite tako, da obkro"zite "crko pred pravilnim odgovorom.
+
+
+
+\begin{enumerate}
+
+\item{[25T]}
+Izra"cunajte lastne vrednosti matrike 
+$$
+\begin{pmatrix}
+1&1&1\\
+-1&-1&0\\
+-2&0&-1
+\end{pmatrix}
+$$
+Izberite si dve lastni vrednosti in izra"cunajte pripadajo"ce lastne vektorje.
+
+Re"sitev: Karakteristi"cna ena"cba je enaka $-(1+\lambda)(2+\lambda^2)$, torej so lastne vrednosti enake $\lambda_1=-1$, $\lambda_2=i\sqrt{2}$ ter $\lambda_3=-i\sqrt{2}$. Pora"cunamo "se njihove pripadajo"ce lastne vektorje, ki so enaki $(0,-1,1)$, ki pripada $\lambda_1$, ter $\frac{1}{2}(-1\pm i\sqrt{2})$, ki pripadata $\lambda_2$ ter $\lambda_3$.
+
+
+\item{[25T]}
+"Zelimo zgraditi tristrano piramido s prostornino $1\operatorname{m}^3$ meter. "Zelimo, da ima osnovna ploskev koordinate ogli"s"c $(1,2,0), (0,3,4), (2,3,0)$. Zadnje ogli"s"ce "zelimo imeti na premici $$\frac{x-1}{2}=y-1,~~~z=2.$$
+Katero to"cko na podani premici moramo vzeti?
+%Izra"cunajte "se vi"sino ter plo"s"cino zgrajene piramide.
+
+Re"sitev: Naj bo $D$ to"cka na dani premici, torej velja $$D=(2a+1,a+1,2).$$ Izra"cunamo $A-D=(-2a,1-a,-2)$, $A-B=(1,-1,-4)$ ter $A-C=(-1,-1,0)$. Velja, da je $6V=6$ enak 
+absolutni vrednosti me"sanega produkta vektorjev $A-D,A-B$ ter $A-C$. Dobimo ena"cbo $|8+4a|=6$, ki nam da dve re"sitvi: $a_1=-\frac{7}{2}$ ter $a_2=-\frac{1}{2}$.
+
+\item{[25T]}
+%Funkcijo $f(x)=2x+1$ podano na intervalu $[0,1]$ razvijte v kosinusno Fourierovo vrsto $F(x)$.
+
+Poi"s"cite re"sitev diferencialne ena"cbe 
+$$y'-\frac{y}{x}=(2x^3+8x^2+6x)\operatorname{ln}x$$
+pri za"cetnem pogoju $y(1)=0$.
+
+Re"sitev: Najprej poi"s"cemo re"sitev homogenega dela 
+$$y'-\frac{y}{x}=0$$
+in dobimo 
+$\frac{dy}{y}=\frac{dx}{x}$ in po integriranju dobimo re"sitev
+$y_h=xC.$ Z variacijo konstante dobimo partikularno re"sitev  
+$y_p=xC(x)$. Izraz $y_p'-\frac{y_p}{x}=2x(x+3)e^x$ se poenostavi v 
+$$C'(x)=2(x^2+4x+3)\operatorname{ln} x,$$
+torej $C(x)=\int 2(x^2+4x+3)\operatorname{ln} x dx$, integracija per partes z $u=\operatorname{ln} x$ in $dv=(x^2+4x+3)dx$ in upo"stevanje za"cetnega pogoja nam da re"sitev
+$$y=\frac{2}{9}(37x-27x^2-9x^3-x^4+27x^2\operatorname{ln}x+18x^3\operatorname{ln}x+3x^4\operatorname{ln}x).$$
+
+
+
+\smallskip
+\item{[5T]}
+Katera izmed spodnjih mno"zic je definicijsko obmo"cje funckije dveh spremenljivk $f(x,y)=|x+y|-\operatorname{arcsin}\frac{x}{2}$
+
+\begin{itemize}
+\item[a)]$\{(x,y)\in \mathbb{R}^2~|~-1\leq x\leq 1\}$
+\item[b)]$\underline{\{(x,y)\in \mathbb{R}^2~|~-2\leq x\leq 2\}}$
+\item[c)]$\{(x,y)\in \mathbb{R}^2~|~-1\leq x\leq 1,~-1\leq y\leq 1\}$
+\item[d)]$\{(x,y)\in \mathbb{R}^2~|~-2\leq x\leq 2,~-2\leq y\leq 2\}$
+\item[e)]$\{(x,y)\in \mathbb{R}^2~|~-1\leq y\leq 1\}$
+\end{itemize}
+
+
+
+
+
+\smallskip
+
+\item{[5T]}
+
+Koliko je rang matrike 
+$$
+\begin{pmatrix}
+1&2&-1\\
+-2&-4&2\\
+3&6&-3
+\end{pmatrix}?
+$$
+
+$$a)~0~~~
+b) ~\underline{1}~~~
+c) ~2~~~
+d)~ 3~~~
+e) ~4~~~
+$$
+
+
+
+\item{[5T]}
+Za kateri $k$ spodnji sistem nima re"sitve?
+$$kx+2y+3z=1,$$
+$$x-y-2z=1,$$
+$$x+2y+z=1.$$
+a)~-2~~~
+b) ~\underline{-1}~~~
+c) ~0~~~
+d)~ 1~~~
+e) ~2~~~
+\item{[5T]}
+
+Kateri izmed spodnjih intervalov je obmo"cje konvergence poten"cne vrste 
+$$\sum_{n=1}^{\infty}\frac{(x+1)^n}{n+1}?$$
+$$a) ~\underline{[-2,0)}~~~
+b) ~(-2,0]~~~
+c) ~(-2,0)~~~
+d) ~[0,2)~~~
+e) ~(0,2]~~~
+$$
+
+
+
+\item{[5T]}
+
+Katera izmed spodnjih to"ck je stacionarna to"cka funkcije 
+$$f(x,y)=\operatorname{ln}(2x+xy+y^2)?$$
+
+
+%Katera izmed spodnjih mno"zic je mno"zica re"sitev karakteristi"cne ena"cbe od diferencialne ena"cbe 
+%$$x^2y''+xy'-y=0?$$
+
+$$a) ~(0,1)~~~
+b) ~(1,-1)~~~
+c) ~(2,-1)~~~
+d) ~(3,-2)~~~
+e) ~\underline{(4,-2)}~~
+$$
+
+
+
+
+
+
+\end{enumerate}
+
+\newpage 
+
+
+
+
+
+
+
+
+
+
+
+\end {document}
