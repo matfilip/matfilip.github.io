@@ -16,7 +16,7 @@ Tržaška cesta 25, 1000 Ljubljana, Slovenia
 
 I am a professor of mathematics at the University of Ljubljana. My research focuses on the classification of Fano manifolds using mirror symmetry and toric deformation theory.
 
-<a href="zbirka.pdf" target="_blank" rel="noopener">Open the PDF</a>
+<a href="zbirka.pdf" target="_blank" rel="noopener">Zbirka Mat2 UN</a>
 
 ## Publications
 
