@@ -145,7 +145,7 @@ Warwick University, March 16-20, 2015
 ## Student supervision
 
 * Andras Sandor, Postdoc
-* Izak Jenko, MSc
+* Izak Jenko: K3 surfaces from a derived categorical viewpoint, MSc (2025)
 * Jure Markun: [Deformation theory of toric varieties](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=149757), MSc (2023)
 
 
