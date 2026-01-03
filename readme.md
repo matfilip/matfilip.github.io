@@ -1,4 +1,7 @@
----
+
+
+
+|||||||||||||---
 title: Matej Filip
 permalink: /
 ---
@@ -21,7 +24,8 @@ I am a professor of mathematics at the University of Ljubljana. My research focu
 ## Publications
 
 <ol>
-	<li> <a href="https://arxiv.org/abs/2006.12960">Deformations of an affine toric Gorenstein pair, </a>to appear in Journal of algebra.</li>
+	<li value="10"> <a href="https://arxiv.org/abs/2504.04486">Laurent polynomials and deformations of non-isolated Gorenstein toric sigularities</a></li>
+	<li> <a href="https://arxiv.org/abs/2006.12960">Deformations of an affine toric Gorenstein pair, </a>Journal of algebra 687 (2026) 419-445.</li>
 <li> with S. Felten, H. Ruddat: <a href="https://doi.org/10.1017/fmp.2021.8">Smoothing toroidal crossing spaces</a>, Forum of Mathematics, Pi 9 (2021) 1-36.</li>
 <li>  with A. Petracci, A. Corti: <a href="https://doi.org/10.1017/9781108877831.005">Mirror Symmetry and smoothing Gorenstein toric affine 3-folds </a>, Facets of Algebraic Geometry
 volume in honour of William Fulton on the occasion of his 80th birthday (2022) 132-163.</li>
@@ -42,7 +46,7 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 ## Preprints
 
 <ol>
-<li value="10"> <a href="https://arxiv.org/abs/2504.04486">Laurent polynomials and deformations of non-isolated Gorenstein toric sigularities</a></li>
+
 </ol>
 
 ## Academic education
