@@ -1,11 +1,5 @@
 
 
-
-|||||||||||||---
-title: Matej Filip
-permalink: /
----
-
 ## Contact
 
 [University of Ljubljana](https://www.uni-lj.si/university/)<br/>
