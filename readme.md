@@ -143,7 +143,7 @@ Warwick University, March 16-20, 2015
 
 * Andras Sandor, Postdoc (2025-present)
 * Ajda Brnot, BSc (2025-present)
-* Izak Jenko: K3 surfaces from a derived categorical viewpoint, MSc (2025), graduated with honours and received the Faculty Prešeren Award for his Master’s thesis.
+* Izak Jenko: [K3 surfaces from a derived categorical viewpoint](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=174320&lang=slv), MSc (2025), graduated with honours and received the Faculty Prešeren Award for his Master’s thesis.
 * Jure Markun: [Deformation theory of toric varieties](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=149757), MSc (2023)
 
 
