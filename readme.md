@@ -132,7 +132,7 @@ Warwick University, March 16-20, 2015
 
 ## Teaching
 * <a href="statistika_predavanja (23).pdf" target="_blank" rel="noopener">Skripta Matematika za statistike</a>
-* <a href="Numerična_matematika__Matej_ (15).pdf" target="_blank" rel="noopener">Prosojnice Numerične metode</a>
+* <a href="Numerična_matematika__Matej_ (18).pdf" target="_blank" rel="noopener">Prosojnice Numerične metode</a>
 * <a href="zbirka.pdf" target="_blank" rel="noopener">Zbirka Mat2 UN</a>
 * Mathematics 1,2,3: FE Ljubljana 
 * Algebraic Curves: FMF Ljubljana
