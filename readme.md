@@ -137,7 +137,7 @@ Warwick University, March 16-20, 2015
 * <a href="Numerična_matematika__Matej_ (19).pdf" target="_blank" rel="noopener">Prosojnice Numerične metode</a>
 * <a href="zbirka_nalog_mat1un.pdf" target="_blank" rel="noopener">Zbirka Mat1 UN</a>
 * <a href="zbirka_nalog_mat1_vs.pdf" target="_blank" rel="noopener">Zbirka Mat1 VSŠ</a>
-* <a href="zbirka.pdf" target="_blank" rel="noopener">Zbirka Mat2 UN</a>
+* <a href="zbirka_nalog_mat2un.pdf" target="_blank" rel="noopener">Zbirka Mat2 UN</a>
 * <a href="zbirka_nalog_mat2_vs.pdf" target="_blank" rel="noopener">Zbirka Mat2 VSŠ</a>
 * Mathematics 1,2,3: FE Ljubljana 
 * Algebraic Curves: FMF Ljubljana
