@@ -11,7 +11,7 @@ Tržaška cesta 25, 1000 Ljubljana, Slovenia
 
 ## Research interests
 
-I am a professor of mathematics at the University of Ljubljana. My research focuses on the classification of Fano manifolds using mirror symmetry and toric deformation theory. I am an organizer of the conference New Developments in Singularity Theory at IMSA Miami, <a href="https://sites.google.com/view/singularity-workshop-imsa-2026">.
+I am a professor of mathematics at the University of Ljubljana. My research focuses on the classification of Fano manifolds using mirror symmetry and toric deformation theory. I am an organizer of the conference <a href="https://sites.google.com/view/singularity-workshop-imsa-2026">New Developments in Singularity Theory at IMSA Miami</a>.
 
 
 
