@@ -40,7 +40,7 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 ## Preprints
 
 <ol>
-
+<li> <a href="https://arxiv.org/abs/2608.24424">Unobstructedness of affine Gorenstein terminal toric fourfolds</a></li>
 </ol>
 
 ## Academic education
@@ -71,11 +71,11 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
   Conference: Toric degeneration and mirror symmetry in Kumamoto, University of Kumamoto, Japan, Oct 13-Oct 14, 2022
 * [Laurent polynomials and deformations of affine toric varities](https://www.mfo.de/occasion/2213/www_view),
   Conference: Toric geometry, Oberwolfach, Germany, Mar 27-Apr 2, 2022
- * [The miniversal deformation of an affine toric Gorenstein threefold](https://kasprzyk.work/seminars/ag.html),
+* [The miniversal deformation of an affine toric Gorenstein threefold](https://kasprzyk.work/seminars/ag.html),
   Seminar at University of Nottingham (online talk), Jan 28, 2021 
 * [Smoothing toroidal crossing spaces](https://sites.google.com/view/1912kobe),
   Conference: Degenerations, algebraic surfaces, and related topics, University of Kobe, Japan, Dec 16-Dec 18, 2019 
- * [Deformations of non-isolated toric singularities](https://www.imperial.ac.uk/events/96313/matej-filip-deformations-of-non-isolated-toric-singularities/),
+* [Deformations of non-isolated toric singularities](https://www.imperial.ac.uk/events/96313/matej-filip-deformations-of-non-isolated-toric-singularities/),
   Seminar at Imperial College London, UK, Oct 10, 2019
 * [The versal deformation for toric varieties in special lattice degrees](https://www.mi.fu-berlin.de/math/groups/ag-algebra/seminaralgeom/index.html),
   Seminar at FU Berlin, Germany, May 23, 2019
@@ -146,7 +146,11 @@ Warwick University, March 16-20, 2015
 
 ## Student supervision
 
+* Federico Tufo, Postdoc (2026-present)
 * Andras Sandor, Postdoc (2025-present)
+* Izak Jenko, PhD (2026-present)
+* Muhammad Awais, PhD (2026-present)
+* Matic Pogorelec, Bsc (2026-present)
 * Ajda Brnot, BSc (2025-present)
 * Izak Jenko: [K3 surfaces from a derived categorical viewpoint](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=174320&lang=slv), MSc (2025), graduated with honours and received the Faculty Prešeren Award for his Master’s thesis.
 * Jure Markun: [Deformation theory of toric varieties](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=149757), MSc (2023)
