@@ -60,6 +60,8 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
   Emmy Noether Seminar, Leibnitz University Hannover, Germany, Jun 10, 2026.
 * [Smoothing toric Gorenstein Fano varieties](https://saga2.gaati.org/talks/)
   Seminar on Algebraic Geometry and its Applications, Tahiti, French Polynesia, Mar 16-20, 2026.
+* [Laurent polynomials and deformations of non-isolated Gorenstein toric singularities](https://www.fmf.uni-lj.si/media/news/attachments/2025/10/29/18/47/20/SAAAJ-Zagreb-2025.pdf)   
+   Seminar SAFA, Zagreb, Croatia, Nov 22, 2025
 * [Mutations and deformations](https://www.imsa.miami.edu/events/2025-fall-emphasis/singularity-theory/index.html)
   	Conference: New developments in Singularity Theory: IMSA Miami, USA, Nov 10-Nov 14, 2025.
 * [Laurent polynomials and deformations of non-isolated Gorenstein toric singularities](https://www.math.ucla.edu/~jmoraga/BGS2025),
