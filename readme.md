@@ -55,7 +55,7 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 
 
 * [Deformations and varieties of cluster type](https://saga2.gaati.org/talks/)
-  Junior Aggebraic Geometry Workshop, UCLA, Los Angeles, USA, Jul 13-Jul 17, 2026.
+  Junior Algebraic Geometry Workshop, UCLA, Los Angeles, USA, Jul 13-Jul 17, 2026.
 * [Deformations of toric Gorenstein Fano varieties](https://saga2.gaati.org/talks/)
   Emmy Noether Seminar, Leibnitz University Hannover, Germany, Jun 10, 2026.
 * [Smoothing toric Gorenstein Fano varieties](https://saga2.gaati.org/talks/)
