@@ -104,8 +104,8 @@ Categories, Tuscany, Italy, Mar 25-Mar 31, 2018
 
 ## Organization of conferences
 
-*<a href="https://sites.google.com/view/singularity-workshop-imsa-2026">New Developments in Singularity Theory at IMSA Miami, Dec 7-Dec 11 2026</a>
-
+* <a href="https://sites.google.com/view/singularity-workshop-imsa-2026">New Developments in Singularity Theory at IMSA Miami, Dec 7-Dec 11 2026</a>
+* <a href="https://sites.google.com/view/tulsfxi">TULSF XI, Sep 24, 2026</a>
 
 
 ## Other Attended conferences
