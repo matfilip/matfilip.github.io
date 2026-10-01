@@ -53,7 +53,8 @@ volume in honour of William Fulton on the occasion of his 80th birthday (2022) 1
 
 ## Selected research talks
 
-
+* [Unobstructedness of Gorenstein Terminal Singularities](https://indico2.uis.no/event/63/timetable/#20260829)
+  Algebraic Geometry in the Daylight, Univercity of Stavanger, Norway, Aug 29-Aug 31, 2026.
 * [Deformations and varieties of cluster type](https://www.math.ucla.edu/~jmoraga/JAGW2026)
   Junior Algebraic Geometry Workshop, UCLA, Los Angeles, USA, Jul 13-Jul 17, 2026.
 * [Deformations of toric Gorenstein Fano varieties](https://timgraefnitz.com/seminar.html)
